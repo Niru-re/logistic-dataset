@@ -1,0 +1,14 @@
+# Large image datasets kept locally (exceed GitHub push limits, ~13 GB total)
+fruits_360/
+healty_&_rotten/
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
