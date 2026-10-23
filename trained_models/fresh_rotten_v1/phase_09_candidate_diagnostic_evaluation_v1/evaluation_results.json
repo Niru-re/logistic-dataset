@@ -1,0 +1,118 @@
+{
+  "phase": "09",
+  "type": "diagnostic_comparison",
+  "is_independent_acceptance": false,
+  "test_partition_previously_used": true,
+  "test_images_assigned": 2408,
+  "baseline_evaluated": 2408,
+  "candidate_evaluated": 2408,
+  "baseline_failures": 0,
+  "candidate_failures": 0,
+  "hashes_unchanged": true,
+  "baseline": {
+    "accuracy": 0.7973421926910299,
+    "macro_f1": 0.7980587319103833,
+    "balanced_accuracy": 0.7962887522806291,
+    "misclassified": 488,
+    "misclassification_rate": 0.2026578073089701
+  },
+  "candidate": {
+    "accuracy": 0.8351328903654485,
+    "macro_f1": 0.8365362682868633,
+    "balanced_accuracy": 0.8344355056915911,
+    "misclassified": 397,
+    "misclassification_rate": 0.1648671096345515
+  },
+  "difference_percentage_points": {
+    "accuracy": 3.779069767441856,
+    "macro_f1": 3.8477536376479993,
+    "balanced_accuracy": 3.8146753410961964
+  },
+  "priority_classes": {
+    "RottenBellpepper": {
+      "baseline": {
+        "precision": 0.47244094488188976,
+        "recall": 0.5042016806722689,
+        "f1": 0.4878048780487805,
+        "support": 119
+      },
+      "candidate": {
+        "precision": 0.4965034965034965,
+        "recall": 0.5966386554621849,
+        "f1": 0.5419847328244274,
+        "support": 119
+      },
+      "f1_diff_pp": 5.417985477564691,
+      "recall_diff_pp": 9.243697478991598,
+      "precision_diff_pp": 2.4062551621606754
+    },
+    "RottenCarrot": {
+      "baseline": {
+        "precision": 0.7524752475247525,
+        "recall": 0.6551724137931034,
+        "f1": 0.7004608294930876,
+        "support": 116
+      },
+      "candidate": {
+        "precision": 0.7222222222222222,
+        "recall": 0.6724137931034483,
+        "f1": 0.6964285714285714,
+        "support": 116
+      },
+      "f1_diff_pp": -0.40322580645162365,
+      "recall_diff_pp": 1.7241379310344862,
+      "precision_diff_pp": -3.0253025302530268
+    },
+    "RottenTomato": {
+      "baseline": {
+        "precision": 0.71875,
+        "recall": 0.575,
+        "f1": 0.6388888888888888,
+        "support": 120
+      },
+      "candidate": {
+        "precision": 0.7596153846153846,
+        "recall": 0.6583333333333333,
+        "f1": 0.7053571428571429,
+        "support": 120
+      },
+      "f1_diff_pp": 6.646825396825406,
+      "recall_diff_pp": 8.333333333333337,
+      "precision_diff_pp": 4.086538461538458
+    },
+    "RottenPotato": {
+      "baseline": {
+        "precision": 0.5055555555555555,
+        "recall": 0.7777777777777778,
+        "f1": 0.6127946127946129,
+        "support": 117
+      },
+      "candidate": {
+        "precision": 0.5976331360946746,
+        "recall": 0.8632478632478633,
+        "f1": 0.7062937062937062,
+        "support": 117
+      },
+      "f1_diff_pp": 9.349909349909336,
+      "recall_diff_pp": 8.54700854700855,
+      "precision_diff_pp": 9.207758053911908
+    }
+  },
+  "priority_rotten_mean_f1": {
+    "baseline": 0.6099873023063425,
+    "candidate": 0.662516038350962,
+    "diff_pp": 5.25287360446195
+  },
+  "historical_reference_baseline": {
+    "accuracy": 0.7973421926910299,
+    "macro_f1": 0.7980587319103833,
+    "balanced_accuracy": 0.7962887522806291,
+    "source": "test_evaluation_v1/test_metrics.json"
+  },
+  "candidate_validation_reference": {
+    "macro_f1": 0.8404110567407027,
+    "balanced_accuracy": 0.8392685863879142,
+    "warning": "Validation metrics are not held-out test evidence"
+  },
+  "conclusion": "Diagnostic comparison only; not independent acceptance. Test partition previously used for baseline evaluation."
+}

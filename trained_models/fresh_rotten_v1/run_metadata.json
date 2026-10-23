@@ -1,0 +1,29 @@
+{
+  "run_status": "completed",
+  "duration_seconds": 1250.435578299992,
+  "best_epoch": 12,
+  "epochs_completed": 12,
+  "train_samples_seen_per_epoch": 7497,
+  "validation_samples_seen_per_epoch": 1876,
+  "test_split_loaded_or_evaluated": false,
+  "runtime": {
+    "python": "3.10.0",
+    "pytorch": "2.2.1+cpu",
+    "pillow": "10.4.0",
+    "numpy_version": "2.2.6 (PyTorch NumPy bridge unavailable; training path avoids NumPy)",
+    "device": "CPU",
+    "cuda_available": false,
+    "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "cpu_threads": 2,
+    "ram_at_completion": {
+      "total_gib": 15.34,
+      "available_gib": 2.28
+    }
+  },
+  "limitations": [
+    "PyTorch reports a NumPy 1.x/2.2.6 ABI incompatibility and torch.from_numpy is unavailable; training uses PIL bytes and torch.frombuffer, which passed smoke testing.",
+    "GPU/VRAM and driver were unavailable; CUDA reports unavailable.",
+    "Labels are folder-derived class names; dataset provenance and capture conditions are not independently established.",
+    "No held-out test evaluation was performed."
+  ]
+}

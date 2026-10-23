@@ -1,0 +1,59 @@
+{
+  "recorded_phase": "09_before",
+  "artifacts": {
+    "baseline_checkpoint": {
+      "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\best_checkpoint.pt",
+      "sha256": "82dd2d1784b794187665aaeb2ac340deee8b1b530c8cb5981d7ec22214960049",
+      "size_bytes": 677560,
+      "exists": true
+    },
+    "candidate_checkpoint": {
+      "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\aspect_preserving_96_experiment_v1\\best_checkpoint.pt",
+      "sha256": "8c937b3c2f82db3b8edc2eb8eb17dc06a6e43bbff0c448c9f7a53448b5423b5f",
+      "size_bytes": 677624,
+      "exists": true
+    },
+    "baseline_class_mapping": {
+      "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\class_to_idx.json",
+      "sha256": "27db2c83375712f8ff08808fe0f35669b6b792efbf7d7473fdb2bbd6fb4ff7b2",
+      "size_bytes": 459,
+      "exists": true
+    },
+    "candidate_class_mapping": {
+      "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\aspect_preserving_96_experiment_v1\\class_to_idx.json",
+      "sha256": "27db2c83375712f8ff08808fe0f35669b6b792efbf7d7473fdb2bbd6fb4ff7b2",
+      "size_bytes": 459,
+      "exists": true
+    },
+    "baseline_training_config": {
+      "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\training_config.json",
+      "sha256": "6409cd4f2fe7a04f14d05b843a7c1c9561af8fc09fe9a7c0266296e0cd740112",
+      "size_bytes": 1508,
+      "exists": true
+    },
+    "candidate_training_config": {
+      "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\aspect_preserving_96_experiment_v1\\training_config.json",
+      "sha256": "0500c59005a04c7f1e1fd526eec8ea0a4f0a44e6b6d49f5963717e38c16b3779",
+      "size_bytes": 1573,
+      "exists": true
+    },
+    "baseline_training_script": {
+      "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\train_baseline.py",
+      "sha256": "1b819d3a49b644dbb1207717ccec57f9d838028ffc4092c6578577aecdca1e32",
+      "size_bytes": 11141,
+      "exists": true
+    },
+    "candidate_training_script": {
+      "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\aspect_preserving_96_experiment_v1\\train_aspect_preserving.py",
+      "sha256": "de1969fbad6452bc8a5bd925e43da7d21cf2973de9e85ef23440b8aa8cc7cb3b",
+      "size_bytes": 11988,
+      "exists": true
+    },
+    "dataset_manifest": {
+      "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\prepared\\fresh_rotten_v1\\dataset_manifest.csv",
+      "sha256": "4a5c1fc7628335b15ffc37b31327934121142701cfe78c4817b3f69293eefbfc",
+      "size_bytes": 1768511,
+      "exists": true
+    }
+  }
+}

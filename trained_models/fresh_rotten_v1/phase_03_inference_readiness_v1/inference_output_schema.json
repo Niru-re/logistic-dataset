@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AgriChain Fresh/Rotten inference result",
+  "type": "object",
+  "required": ["input_identifier","model_name","model_version","selected_checkpoint","predicted_class_name","produce_type","freshness_label","raw_predicted_class_softmax_score","top_k_predictions","input_dimensions","preprocessing_config","inference_status"],
+  "properties": {
+    "input_identifier": {"type":"string","description":"Resolved local image path."},
+    "model_name": {"type":"string"},
+    "model_version": {"enum":["baseline","candidate"]},
+    "selected_checkpoint": {"type":"string"},
+    "predicted_class_name": {"type":"string","description":"Exact class name from verified training mapping."},
+    "produce_type": {"type":"string","description":"Suffix parsed from Fresh/Rotten class name."},
+    "freshness_label": {"enum":["Fresh","Rotten"]},
+    "raw_predicted_class_softmax_score": {"type":"number","minimum":0,"maximum":1,"description":"Uncalibrated softmax score, not a probability of food safety or freshness certainty."},
+    "top_k_predictions": {"type":"array","items":{"type":"object","required":["class_name","produce_type","freshness_label","raw_softmax_score"],"properties":{"class_name":{"type":"string"},"produce_type":{"type":"string"},"freshness_label":{"enum":["Fresh","Rotten"]},"raw_softmax_score":{"type":"number","minimum":0,"maximum":1}},"additionalProperties":false}},
+    "input_dimensions": {"type":"object","required":["width","height"],"properties":{"width":{"type":"integer","minimum":1},"height":{"type":"integer","minimum":1}},"additionalProperties":false},
+    "preprocessing_config": {"type":"object"},
+    "inference_status": {"const":"success"}
+  },
+  "additionalProperties": false,
+  "example": {
+    "input_identifier":"C:\\images\\produce.jpg",
+    "model_name":"fresh_rotten_v1_aspect_preserving_96_experiment_v1",
+    "model_version":"candidate",
+    "selected_checkpoint":"C:\\models\\candidate\\best_checkpoint.pt",
+    "predicted_class_name":"FreshMango",
+    "produce_type":"Mango",
+    "freshness_label":"Fresh",
+    "raw_predicted_class_softmax_score":0.82,
+    "top_k_predictions":[{"class_name":"FreshMango","produce_type":"Mango","freshness_label":"Fresh","raw_softmax_score":0.82},{"class_name":"RottenMango","produce_type":"Mango","freshness_label":"Rotten","raw_softmax_score":0.11}],
+    "input_dimensions":{"width":640,"height":480},
+    "preprocessing_config":{"color_format":"RGB","output_dimensions":[96,96]},
+    "inference_status":"success"
+  }
+}

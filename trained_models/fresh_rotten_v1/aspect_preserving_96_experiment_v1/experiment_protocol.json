@@ -1,0 +1,39 @@
+{
+  "recorded_before_training": "2026-10-14T10:24:15.014783+00:00",
+  "experiment": "single controlled preprocessing comparison",
+  "baseline_reference": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1",
+  "baseline_validation": {
+    "macro_f1": 0.810803044032772,
+    "balanced_accuracy": 0.8107859315314657,
+    "accuracy": 0.8139658848614072,
+    "priority_rotten_f1": {
+      "RottenBellpepper": 0.5232558139534884,
+      "RottenCarrot": 0.7612903225806452,
+      "RottenTomato": 0.6624203821656051,
+      "RottenPotato": 0.6787330316742082
+    },
+    "priority_rotten_mean_f1": 0.6564248875934866
+  },
+  "criteria": {
+    "validation_macro_f1_min": 0.8208,
+    "validation_balanced_accuracy_min": 0.8058,
+    "priority_rotten_mean_f1_min": 0.6564248875934866
+  },
+  "fixed_variables": [
+    "SmallCNN architecture and initialization policy",
+    "manifest train/validation assignments",
+    "class_to_idx",
+    "seed 2048 and deterministic algorithms",
+    "CPU with 2 Torch threads",
+    "batch size 16",
+    "AdamW lr 0.001 and weight_decay 0.0001",
+    "ReduceLROnPlateau mode=min factor=0.5 patience=1 min_lr=1e-5",
+    "cross entropy",
+    "horizontal mirror augmentation on training only",
+    "12 epoch maximum and patience 4",
+    "RGB conversion, bilinear interpolation, [-1,1] normalization and metric calculations"
+  ],
+  "single_changed_variable": "Base resize: baseline square stretch 96x96 -> aspect-preserving fit within 96x96 and centered neutral RGB(127,127,127) padding",
+  "selection_protocol": "Validation rows alone choose the checkpoint. Manifest metadata is parsed, then only train and validation rows enter datasets and DataLoaders; no test image path is opened or decoded.",
+  "criteria_note": "Experiment-selection criteria only; not production acceptance thresholds."
+}

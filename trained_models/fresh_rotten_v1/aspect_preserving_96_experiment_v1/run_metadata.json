@@ -1,0 +1,37 @@
+{
+  "run_status": "completed",
+  "duration_seconds": 1266.470287799999,
+  "best_epoch": 12,
+  "epochs_completed": 12,
+  "train_samples_seen_per_epoch": 7497,
+  "validation_samples_seen_per_epoch": 1876,
+  "test_split_loaded_or_evaluated": false,
+  "runtime": {
+    "python": "3.10.0",
+    "pytorch": "2.2.1+cpu",
+    "pillow": "10.4.0",
+    "numpy_version": "2.2.6 (PyTorch NumPy bridge unavailable; training path avoids NumPy)",
+    "device": "CPU",
+    "cuda_available": false,
+    "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "cpu_threads": 2,
+    "ram_at_completion": {
+      "total_gib": 15.34,
+      "available_gib": 3.54
+    }
+  },
+  "limitations": [
+    "PyTorch reports a NumPy 1.x/2.2.6 ABI incompatibility and torch.from_numpy is unavailable; training uses PIL bytes and torch.frombuffer, which passed smoke testing.",
+    "GPU/VRAM and driver were unavailable; CUDA reports unavailable.",
+    "Labels are folder-derived class names; dataset provenance and capture conditions are not independently established.",
+    "No held-out test evaluation was performed."
+  ],
+  "experiment": "Aspect-preserving 96x96 preprocessing comparison",
+  "pre_registered_criteria": {
+    "validation_macro_f1_min": 0.8208,
+    "validation_balanced_accuracy_min": 0.8058,
+    "priority_rotten_mean_f1_min": 0.6564248875934866
+  },
+  "baseline_validation_macro_f1": 0.810803044032772,
+  "baseline_validation_balanced_accuracy": 0.8107859315314657
+}

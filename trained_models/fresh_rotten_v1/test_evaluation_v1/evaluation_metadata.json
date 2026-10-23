@@ -1,0 +1,29 @@
+{
+  "evaluation_status": "completed",
+  "runtime": {
+    "python": "3.10.0",
+    "pytorch": "2.2.1+cpu",
+    "device": "CPU",
+    "cuda_available": false,
+    "num_workers": 0,
+    "batch_size": 16,
+    "input_size": 96,
+    "numpy_bridge_used": false
+  },
+  "checkpoint": {
+    "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\best_checkpoint.pt",
+    "sha256": "82dd2d1784b794187665aaeb2ac340deee8b1b530c8cb5981d7ec22214960049",
+    "epoch": 12
+  },
+  "manifest": {
+    "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\prepared\\fresh_rotten_v1\\dataset_manifest.csv",
+    "sha256": "4a5c1fc7628335b15ffc37b31327934121142701cfe78c4817b3f69293eefbfc"
+  },
+  "test_inference_count": 2408,
+  "hash_overlap_counts": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "duration_seconds": 12.949938800000382
+}

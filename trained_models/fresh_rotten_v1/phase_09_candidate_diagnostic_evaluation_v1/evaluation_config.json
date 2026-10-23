@@ -1,0 +1,101 @@
+{
+  "phase": "09",
+  "purpose": "Comparative diagnostic evaluation of Fresh/Rotten candidate vs baseline on existing test partition",
+  "evaluation_type": "diagnostic_comparison",
+  "is_independent_acceptance": false,
+  "test_partition_previously_used": true,
+  "project_root": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic",
+  "manifest_path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\prepared\\fresh_rotten_v1\\dataset_manifest.csv",
+  "dataset_root": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\Fruits-Vegetables-Dataset-main\\Fruits-Vegetables-Dataset-main\\split_dataset",
+  "test_split_filter": "assigned_split == 'test'",
+  "expected_test_images": 2408,
+  "model_architecture": "SmallCNN (Conv-BN-ReLU 24/48/96/128, adaptive avg pool, dropout 0.25, Linear 128->20)",
+  "device": "cpu",
+  "torch_threads": 2,
+  "batch_size": 16,
+  "inference_mode": true,
+  "model_eval_mode": true,
+  "class_order": [
+    "FreshApple", "FreshBanana", "FreshBellpepper", "FreshCarrot", "FreshCucumber",
+    "FreshMango", "FreshOrange", "FreshPotato", "FreshStrawberry", "FreshTomato",
+    "RottenApple", "RottenBanana", "RottenBellpepper", "RottenCarrot", "RottenCucumber",
+    "RottenMango", "RottenOrange", "RottenPotato", "RottenStrawberry", "RottenTomato"
+  ],
+  "num_classes": 20,
+  "priority_classes": ["RottenBellpepper", "RottenCarrot", "RottenTomato", "RottenPotato"],
+  "models": {
+    "baseline": {
+      "name": "fresh_rotten_v1_baseline",
+      "checkpoint": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\best_checkpoint.pt",
+      "class_mapping": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\class_to_idx.json",
+      "training_config": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\training_config.json",
+      "training_script": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\train_baseline.py",
+      "preprocessing_policy": "stretch",
+      "preprocessing_description": "PIL RGB convert, direct bilinear resize to 96x96, tensor [0,1], normalize (x-0.5)/0.5",
+      "input_size": [3, 96, 96],
+      "resize": "PIL bilinear RGB"
+    },
+    "candidate": {
+      "name": "fresh_rotten_v1_aspect_preserving_96_experiment_v1",
+      "checkpoint": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\aspect_preserving_96_experiment_v1\\best_checkpoint.pt",
+      "class_mapping": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\aspect_preserving_96_experiment_v1\\class_to_idx.json",
+      "training_config": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\aspect_preserving_96_experiment_v1\\training_config.json",
+      "training_script": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\aspect_preserving_96_experiment_v1\\train_aspect_preserving.py",
+      "preprocessing_policy": "aspect_preserving",
+      "preprocessing_description": "PIL RGB convert, aspect-preserving bilinear fit inside 96x96, center-pad canvas RGB(127,127,127), tensor [0,1], normalize (x-0.5)/0.5",
+      "input_size": [3, 96, 96],
+      "resize": "PIL bilinear RGB; aspect-preserving fit within 96x96, center-pad RGB(127,127,127)"
+    }
+  },
+  "metrics": {
+    "accuracy": "fraction of correct predictions / evaluated images",
+    "macro_f1": "mean of per-class F1 scores across all 20 classes",
+    "balanced_accuracy": "mean of per-class recall across all 20 classes",
+    "per_class_precision": "TP / (TP + FP), 0 if undefined",
+    "per_class_recall": "TP / (TP + FN), 0 if undefined",
+    "per_class_f1": "2 * precision * recall / (precision + recall), 0 if undefined",
+    "support": "number of true instances of the class in the evaluated set",
+    "misclassification_rate": "1 - accuracy",
+    "difference_unit": "percentage points"
+  },
+  "output_files": [
+    "evaluation_protocol.md",
+    "evaluation_config.json",
+    "artifact_hashes_before.json",
+    "artifact_hashes_after.json",
+    "baseline_test_metrics.json",
+    "candidate_test_metrics.json",
+    "per_class_metrics.csv",
+    "confusion_matrix_baseline.csv",
+    "confusion_matrix_candidate.csv",
+    "prediction_comparison.csv",
+    "evaluation_failures.csv",
+    "evaluate_phase09.py",
+    "phase_09_summary.md"
+  ],
+  "historical_reference_baseline": {
+    "accuracy": 0.7973421926910299,
+    "macro_f1": 0.7980587319103833,
+    "balanced_accuracy": 0.7962887522806291,
+    "test_images": 2408,
+    "misclassified": 488,
+    "source": "test_evaluation_v1/test_metrics.json"
+  },
+  "candidate_validation_reference": {
+    "accuracy": 0.8427505330490405,
+    "macro_f1": 0.8404110567407027,
+    "balanced_accuracy": 0.8392685863879142,
+    "warning": "Validation metrics are not held-out test or real-world evidence"
+  },
+  "artifact_protection": {
+    "do_not_modify": [
+      "baseline checkpoint and training artifacts",
+      "candidate checkpoint and training artifacts",
+      "Phase 03 inference package",
+      "Phase 04 dataset manifests",
+      "Phase 08 reports and registries",
+      "original images, labels, and split assignments"
+    ],
+    "hash_verified_before_after": true
+  }
+}

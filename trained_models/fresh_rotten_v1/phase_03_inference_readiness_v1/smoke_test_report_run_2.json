@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-10-14T11:00:06.079986+00:00",
+  "scope": "Synthetic-image functional checks only; no prepared dataset or held-out test image/label accessed.",
+  "environment": {
+    "python": "3.10.0",
+    "pytorch": "2.2.1+cpu",
+    "pillow": "10.4.0",
+    "device": "CPU",
+    "cuda_available": false,
+    "numpy_bridge_used": false
+  },
+  "tests": [
+    {
+      "name": "candidate_checkpoint_load",
+      "status": "PASS",
+      "elapsed_seconds": 0.014295,
+      "details": {
+        "model_name": "fresh_rotten_v1_aspect_preserving_96_experiment_v1",
+        "classes": 20,
+        "device": "cpu"
+      }
+    },
+    {
+      "name": "candidate_single_image_inference",
+      "status": "PASS",
+      "elapsed_seconds": 0.015011,
+      "details": {
+        "input_dimensions": {
+          "width": 160,
+          "height": 80
+        },
+        "model_version": "candidate"
+      }
+    },
+    {
+      "name": "candidate_batch_inference",
+      "status": "PASS",
+      "elapsed_seconds": 0.023173,
+      "details": {
+        "prediction_count": 3
+      }
+    },
+    {
+      "name": "output_structure_and_top_k_limit",
+      "status": "PASS",
+      "elapsed_seconds": 0.00733,
+      "details": {
+        "required_fields_present": true,
+        "top_k_clamped_to": 20
+      }
+    },
+    {
+      "name": "candidate_class_mapping",
+      "status": "PASS",
+      "elapsed_seconds": 1.9e-05,
+      "details": {
+        "mapping_size": 20,
+        "class_names_parseable": true
+      }
+    },
+    {
+      "name": "finite_score_range",
+      "status": "PASS",
+      "elapsed_seconds": 0.00775,
+      "details": {
+        "finite_and_in_range": true,
+        "all_class_scores_sum": 1.0
+      }
+    },
+    {
+      "name": "missing_image_handling",
+      "status": "PASS",
+      "elapsed_seconds": 0.000463,
+      "details": {
+        "exception": "FileNotFoundError"
+      }
+    },
+    {
+      "name": "invalid_image_handling",
+      "status": "PASS",
+      "elapsed_seconds": 0.111186,
+      "details": {
+        "exception": "ValueError"
+      }
+    },
+    {
+      "name": "single_batch_equivalence",
+      "status": "PASS",
+      "elapsed_seconds": 0.017655,
+      "details": {
+        "identical_prediction_and_preprocessing": true
+      }
+    },
+    {
+      "name": "baseline_load_and_inference",
+      "status": "PASS",
+      "elapsed_seconds": 0.015351,
+      "details": {
+        "model_name": "fresh_rotten_v1_baseline",
+        "inference": "PASS"
+      }
+    },
+    {
+      "name": "cpu_reproducibility",
+      "status": "PASS",
+      "elapsed_seconds": 0.014988,
+      "details": {
+        "device": "cpu",
+        "repeated_scores_identical": true
+      }
+    }
+  ],
+  "artifact_integrity": {
+    "status": "PASS",
+    "report_file": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\phase_03_inference_readiness_v1\\artifact_hashes_after_run_2.json"
+  },
+  "passed": 11,
+  "failed": 0,
+  "total_elapsed_seconds": 0.287885,
+  "report_file": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\trained_models\\fresh_rotten_v1\\phase_03_inference_readiness_v1\\smoke_test_report_run_2.json"
+}
