@@ -1,0 +1,289 @@
+{
+  "phase": "11",
+  "source_dataset": "Healthy & Rotten / Fruit And Vegetable Diseases Dataset",
+  "source_path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\healty_&_rotten\\Fruit And Vegetable Diseases Dataset",
+  "public_source": "Fruit and Vegetable Disease (Healthy vs Rotten), Kaggle dsv/8463025",
+  "decision_date_utc": "2026-10-17",
+  "evidence_reviewed": [
+    "Local source directory contents (images only, zero documentation files)",
+    "Phase 04 preparation_metadata.json",
+    "Phase 04 class_mapping.json",
+    "Phase 04 dataset_summary.md",
+    "Kaggle source page https://www.kaggle.com/dsv/8463025 (no readable content returned)"
+  ],
+  "label_semantics_evidence_status": "UNVERIFIED",
+  "decision_summary": "No credible documentation establishes that Healthy/Rotten labels map to Fresh/Rotten. Source is a Diseases Dataset with purpose described as disease detection. Directory names are the only evidence for label meaning, which is insufficient.",
+  "class_decisions": {
+    "Apple__Healthy": {
+      "produce_type": "Apple",
+      "source_label": "Healthy",
+      "mapped_fr_class": "FreshApple",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json: 'Source root names this a Diseases Dataset. Not independently verified as food safety or shelf-life label.'",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Healthy not documented as equivalent to Fresh"
+    },
+    "Apple__Rotten": {
+      "produce_type": "Apple",
+      "source_label": "Rotten",
+      "mapped_fr_class": "RottenApple",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json: 'Source root names this a Diseases Dataset. Not independently verified as food safety or shelf-life label.'",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Rotten not documented as equivalent to freshness/rotten ground truth"
+    },
+    "Banana__Healthy": {
+      "produce_type": "Banana",
+      "source_label": "Healthy",
+      "mapped_fr_class": "FreshBanana",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Healthy not documented as equivalent to Fresh"
+    },
+    "Banana__Rotten": {
+      "produce_type": "Banana",
+      "source_label": "Rotten",
+      "mapped_fr_class": "RottenBanana",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Rotten not documented as equivalent to freshness/rotten ground truth"
+    },
+    "Bellpepper__Healthy": {
+      "produce_type": "Bellpepper",
+      "source_label": "Healthy",
+      "mapped_fr_class": "FreshBellpepper",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Healthy not documented as equivalent to Fresh"
+    },
+    "Bellpepper__Rotten": {
+      "produce_type": "Bellpepper",
+      "source_label": "Rotten",
+      "mapped_fr_class": "RottenBellpepper",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Rotten not documented as equivalent to freshness/rotten ground truth"
+    },
+    "Carrot__Healthy": {
+      "produce_type": "Carrot",
+      "source_label": "Healthy",
+      "mapped_fr_class": "FreshCarrot",
+      "evidence_status": "CONFLICTED",
+      "evidence_reference": "Phase 04 unresolved_manifest.csv: 5 records with conflicting Carrot__Healthy/Carrot__Rotten labels on identical byte content",
+      "eligible_for_evaluation": false,
+      "reason": "Conflicting labels on identical images; label semantics also unverified"
+    },
+    "Carrot__Rotten": {
+      "produce_type": "Carrot",
+      "source_label": "Rotten",
+      "mapped_fr_class": "RottenCarrot",
+      "evidence_status": "CONFLICTED",
+      "evidence_reference": "Phase 04 unresolved_manifest.csv: 5 records with conflicting Carrot__Healthy/Carrot__Rotten labels on identical byte content",
+      "eligible_for_evaluation": false,
+      "reason": "Conflicting labels on identical images; label semantics also unverified"
+    },
+    "Cucumber__Healthy": {
+      "produce_type": "Cucumber",
+      "source_label": "Healthy",
+      "mapped_fr_class": "FreshCucumber",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Healthy not documented as equivalent to Fresh"
+    },
+    "Cucumber__Rotten": {
+      "produce_type": "Cucumber",
+      "source_label": "Rotten",
+      "mapped_fr_class": "RottenCucumber",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Rotten not documented as equivalent to freshness/rotten ground truth"
+    },
+    "Mango__Healthy": {
+      "produce_type": "Mango",
+      "source_label": "Healthy",
+      "mapped_fr_class": "FreshMango",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Healthy not documented as equivalent to Fresh"
+    },
+    "Mango__Rotten": {
+      "produce_type": "Mango",
+      "source_label": "Rotten",
+      "mapped_fr_class": "RottenMango",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Rotten not documented as equivalent to freshness/rotten ground truth"
+    },
+    "Orange__Healthy": {
+      "produce_type": "Orange",
+      "source_label": "Healthy",
+      "mapped_fr_class": "FreshOrange",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Healthy not documented as equivalent to Fresh"
+    },
+    "Orange__Rotten": {
+      "produce_type": "Orange",
+      "source_label": "Rotten",
+      "mapped_fr_class": "RottenOrange",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Rotten not documented as equivalent to freshness/rotten ground truth"
+    },
+    "Potato__Healthy": {
+      "produce_type": "Potato",
+      "source_label": "Healthy",
+      "mapped_fr_class": "FreshPotato",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Healthy not documented as equivalent to Fresh"
+    },
+    "Potato__Rotten": {
+      "produce_type": "Potato",
+      "source_label": "Rotten",
+      "mapped_fr_class": "RottenPotato",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Rotten not documented as equivalent to freshness/rotten ground truth"
+    },
+    "Strawberry__Healthy": {
+      "produce_type": "Strawberry",
+      "source_label": "Healthy",
+      "mapped_fr_class": "FreshStrawberry",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Healthy not documented as equivalent to Fresh"
+    },
+    "Strawberry__Rotten": {
+      "produce_type": "Strawberry",
+      "source_label": "Rotten",
+      "mapped_fr_class": "RottenStrawberry",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Rotten not documented as equivalent to freshness/rotten ground truth"
+    },
+    "Tomato__Healthy": {
+      "produce_type": "Tomato",
+      "source_label": "Healthy",
+      "mapped_fr_class": "FreshTomato",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Healthy not documented as equivalent to Fresh"
+    },
+    "Tomato__Rotten": {
+      "produce_type": "Tomato",
+      "source_label": "Rotten",
+      "mapped_fr_class": "RottenTomato",
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Label semantics unverified: Rotten not documented as equivalent to freshness/rotten ground truth"
+    },
+    "Grape__Healthy": {
+      "produce_type": "Grape",
+      "source_label": "Healthy",
+      "mapped_fr_class": null,
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Produce type Grape not in Fresh/Rotten model's 20 classes; no mapping possible"
+    },
+    "Grape__Rotten": {
+      "produce_type": "Grape",
+      "source_label": "Rotten",
+      "mapped_fr_class": null,
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Produce type Grape not in Fresh/Rotten model's 20 classes; no mapping possible"
+    },
+    "Guava__Healthy": {
+      "produce_type": "Guava",
+      "source_label": "Healthy",
+      "mapped_fr_class": null,
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Produce type Guava not in Fresh/Rotten model's 20 classes; no mapping possible"
+    },
+    "Guava__Rotten": {
+      "produce_type": "Guava",
+      "source_label": "Rotten",
+      "mapped_fr_class": null,
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Produce type Guava not in Fresh/Rotten model's 20 classes; no mapping possible"
+    },
+    "Jujube__Healthy": {
+      "produce_type": "Jujube",
+      "source_label": "Healthy",
+      "mapped_fr_class": null,
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Produce type Jujube not in Fresh/Rotten model's 20 classes; no mapping possible"
+    },
+    "Jujube__Rotten": {
+      "produce_type": "Jujube",
+      "source_label": "Rotten",
+      "mapped_fr_class": null,
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Produce type Jujube not in Fresh/Rotten model's 20 classes; no mapping possible"
+    },
+    "Pomegranate__Healthy": {
+      "produce_type": "Pomegranate",
+      "source_label": "Healthy",
+      "mapped_fr_class": null,
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Produce type Pomegranate not in Fresh/Rotten model's 20 classes; no mapping possible"
+    },
+    "Pomegranate__Rotten": {
+      "produce_type": "Pomegranate",
+      "source_label": "Rotten",
+      "mapped_fr_class": null,
+      "evidence_status": "UNVERIFIED",
+      "evidence_reference": "Phase 04 class_mapping.json",
+      "eligible_for_evaluation": false,
+      "reason": "Produce type Pomegranate not in Fresh/Rotten model's 20 classes; no mapping possible"
+    }
+  },
+  "summary_counts": {
+    "total_classes_assessed": 28,
+    "classes_with_verified_semantics": 0,
+    "classes_unverified": 26,
+    "classes_conflicted": 2,
+    "classes_unmapped": 4,
+    "classes_eligible_for_evaluation": 0
+  },
+  "key_limitations": [
+    "No documentation files exist in the source directory (only images)",
+    "Source is named 'Diseases Dataset' — purpose described as disease detection, not freshness classification",
+    "No operational definition of 'Healthy' or 'Rotten' found in any source",
+    "No documentation of label assignment method (human inspection, measurement protocol, automatic rules)",
+    "No sample-level provenance or collection conditions documented",
+    "Five Carrot records have conflicting Healthy/Rotten labels on identical byte content",
+    "Four produce types (Grape, Guava, Jujube, Pomegranate) have no corresponding class in the Fresh/Rotten model",
+    "Public Kaggle source page did not return readable documentation"
+  ],
+  "conclusion": "Label semantics are UNVERIFIED for all classes. Directory names 'Healthy' and 'Rotten' alone do not constitute credible documentation of freshness ground truth. No class mapping can be endorsed for independent evaluation until authoritative label documentation is obtained."
+}

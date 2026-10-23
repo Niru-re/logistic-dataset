@@ -1,0 +1,257 @@
+{
+  "label_semantics": "Folder taxonomy pairs 14 produce types with Healthy/Rotten labels. Source root names this a Diseases Dataset; no documentation establishes that “Rotten” is equivalent to Freshness ground truth. No official split exists; deterministic grouped 80/10/10 splits use seed 2048 after conflicting duplicate groups are held unresolved.",
+  "classes": [
+    {
+      "class_id": 0,
+      "class_name": "Apple__Healthy",
+      "original_label": "Apple__Healthy",
+      "source_label_variants": [
+        "Apple__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 1,
+      "class_name": "Apple__Rotten",
+      "original_label": "Apple__Rotten",
+      "source_label_variants": [
+        "Apple__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 2,
+      "class_name": "Banana__Healthy",
+      "original_label": "Banana__Healthy",
+      "source_label_variants": [
+        "Banana__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 3,
+      "class_name": "Banana__Rotten",
+      "original_label": "Banana__Rotten",
+      "source_label_variants": [
+        "Banana__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 4,
+      "class_name": "Bellpepper__Healthy",
+      "original_label": "Bellpepper__Healthy",
+      "source_label_variants": [
+        "Bellpepper__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 5,
+      "class_name": "Bellpepper__Rotten",
+      "original_label": "Bellpepper__Rotten",
+      "source_label_variants": [
+        "Bellpepper__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 6,
+      "class_name": "Carrot__Healthy",
+      "original_label": "Carrot__Healthy",
+      "source_label_variants": [
+        "Carrot__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 7,
+      "class_name": "Carrot__Rotten",
+      "original_label": "Carrot__Rotten",
+      "source_label_variants": [
+        "Carrot__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 8,
+      "class_name": "Cucumber__Healthy",
+      "original_label": "Cucumber__Healthy",
+      "source_label_variants": [
+        "Cucumber__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 9,
+      "class_name": "Cucumber__Rotten",
+      "original_label": "Cucumber__Rotten",
+      "source_label_variants": [
+        "Cucumber__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 10,
+      "class_name": "Grape__Healthy",
+      "original_label": "Grape__Healthy",
+      "source_label_variants": [
+        "Grape__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 11,
+      "class_name": "Grape__Rotten",
+      "original_label": "Grape__Rotten",
+      "source_label_variants": [
+        "Grape__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 12,
+      "class_name": "Guava__Healthy",
+      "original_label": "Guava__Healthy",
+      "source_label_variants": [
+        "Guava__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 13,
+      "class_name": "Guava__Rotten",
+      "original_label": "Guava__Rotten",
+      "source_label_variants": [
+        "Guava__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 14,
+      "class_name": "Jujube__Healthy",
+      "original_label": "Jujube__Healthy",
+      "source_label_variants": [
+        "Jujube__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 15,
+      "class_name": "Jujube__Rotten",
+      "original_label": "Jujube__Rotten",
+      "source_label_variants": [
+        "Jujube__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 16,
+      "class_name": "Mango__Healthy",
+      "original_label": "Mango__Healthy",
+      "source_label_variants": [
+        "Mango__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 17,
+      "class_name": "Mango__Rotten",
+      "original_label": "Mango__Rotten",
+      "source_label_variants": [
+        "Mango__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 18,
+      "class_name": "Orange__Healthy",
+      "original_label": "Orange__Healthy",
+      "source_label_variants": [
+        "Orange__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 19,
+      "class_name": "Orange__Rotten",
+      "original_label": "Orange__Rotten",
+      "source_label_variants": [
+        "Orange__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 20,
+      "class_name": "Pomegranate__Healthy",
+      "original_label": "Pomegranate__Healthy",
+      "source_label_variants": [
+        "Pomegranate__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 21,
+      "class_name": "Pomegranate__Rotten",
+      "original_label": "Pomegranate__Rotten",
+      "source_label_variants": [
+        "Pomegranate__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 22,
+      "class_name": "Potato__Healthy",
+      "original_label": "Potato__Healthy",
+      "source_label_variants": [
+        "Potato__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 23,
+      "class_name": "Potato__Rotten",
+      "original_label": "Potato__Rotten",
+      "source_label_variants": [
+        "Potato__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 24,
+      "class_name": "Strawberry__Healthy",
+      "original_label": "Strawberry__Healthy",
+      "source_label_variants": [
+        "Strawberry__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 25,
+      "class_name": "Strawberry__Rotten",
+      "original_label": "Strawberry__Rotten",
+      "source_label_variants": [
+        "Strawberry__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 26,
+      "class_name": "Tomato__Healthy",
+      "original_label": "Tomato__Healthy",
+      "source_label_variants": [
+        "Tomato__Healthy"
+      ],
+      "semantics": "Folder-derived condition: Healthy; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    },
+    {
+      "class_id": 27,
+      "class_name": "Tomato__Rotten",
+      "original_label": "Tomato__Rotten",
+      "source_label_variants": [
+        "Tomato__Rotten"
+      ],
+      "semantics": "Folder-derived condition: Rotten; source parent names this a Diseases Dataset. Not independently verified as food safety or shelf-life label."
+    }
+  ]
+}

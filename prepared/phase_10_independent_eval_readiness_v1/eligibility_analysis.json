@@ -1,0 +1,110 @@
+{
+  "phase": "10",
+  "analysis_type": "eligibility_for_independent_evaluation",
+  "sources": {
+    "fresh_rotten_manifest": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\prepared\\fresh_rotten_v1\\dataset_manifest.csv",
+    "healthy_rotten_manifest": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\prepared\\phase_04_image_datasets_v1\\healthy_rotten_diseases\\dataset_manifest.csv"
+  },
+  "restrictions": {
+    "old_test_partition_not_checked": true,
+    "reason": "old_2408_image_test_partition_must_not_be_touched"
+  },
+  "fresh_rotten_model_classes": [
+    "FreshApple",
+    "FreshBanana",
+    "FreshBellpepper",
+    "FreshCarrot",
+    "FreshCucumber",
+    "FreshMango",
+    "FreshOrange",
+    "FreshPotato",
+    "FreshStrawberry",
+    "FreshTomato",
+    "RottenApple",
+    "RottenBanana",
+    "RottenBellpepper",
+    "RottenCarrot",
+    "RottenCucumber",
+    "RottenMango",
+    "RottenOrange",
+    "RottenPotato",
+    "RottenStrawberry",
+    "RottenTomato"
+  ],
+  "healthy_rotten_classes_mappable": [
+    "Apple",
+    "Banana",
+    "Bellpepper",
+    "Carrot",
+    "Cucumber",
+    "Mango",
+    "Orange",
+    "Potato",
+    "Strawberry",
+    "Tomato"
+  ],
+  "healthy_rotten_classes_unmapped": [
+    "Grape",
+    "Guava",
+    "Jujube",
+    "Pomegranate"
+  ],
+  "counts": {
+    "healthy_rotten_total": 27513,
+    "eligible": 17309,
+    "overlapping_fr_train_val": 8604,
+    "unmapped_produce": 1600,
+    "unresolved_conflict": 0
+  },
+  "eligible_by_healthy_rotten_class": {
+    "Apple__Healthy": 2004,
+    "Apple__Rotten": 2624,
+    "Banana__Healthy": 1663,
+    "Banana__Rotten": 2440,
+    "Bellpepper__Healthy": 122,
+    "Bellpepper__Rotten": 116,
+    "Carrot__Healthy": 124,
+    "Carrot__Rotten": 110,
+    "Cucumber__Healthy": 123,
+    "Cucumber__Rotten": 118,
+    "Mango__Healthy": 945,
+    "Mango__Rotten": 1290,
+    "Orange__Healthy": 1721,
+    "Orange__Rotten": 1783,
+    "Potato__Healthy": 123,
+    "Potato__Rotten": 116,
+    "Strawberry__Healthy": 815,
+    "Strawberry__Rotten": 835,
+    "Tomato__Healthy": 121,
+    "Tomato__Rotten": 116
+  },
+  "eligible_by_mapped_fr_class": {
+    "FreshApple": 2004,
+    "FreshBanana": 1663,
+    "FreshBellpepper": 122,
+    "FreshCarrot": 124,
+    "FreshCucumber": 123,
+    "FreshMango": 945,
+    "FreshOrange": 1721,
+    "FreshPotato": 123,
+    "FreshStrawberry": 815,
+    "FreshTomato": 121,
+    "RottenApple": 2624,
+    "RottenBanana": 2440,
+    "RottenBellpepper": 116,
+    "RottenCarrot": 110,
+    "RottenCucumber": 118,
+    "RottenMango": 1290,
+    "RottenOrange": 1783,
+    "RottenPotato": 116,
+    "RottenStrawberry": 835,
+    "RottenTomato": 116
+  },
+  "eligible_by_hr_split": {
+    "test": 1742,
+    "train": 13849,
+    "validation": 1718
+  },
+  "label_semantics_limitation": "Healthy & Rotten source labels (Healthy/Rotten) are NOT independently verified as equivalent to Fresh/Rotten. Source is a 'Diseases Dataset' with no documentation establishing that 'Rotten' equals freshness ground truth. Mapping is proposed, not verified.",
+  "independence_limitation": "8604 Healthy & Rotten images exactly duplicate Fresh/Rotten training/validation images (sha256 match). These cannot be used for independent evaluation. Overlap with old test partition could not be checked (restricted)."
+}

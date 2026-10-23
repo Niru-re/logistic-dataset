@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Door-Close', 'Door-Open']
+
+roboflow:
+  workspace: fiw-benbo
+  project: door-open-close-prgfz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fiw-benbo/door-open-close-prgfz/dataset/1

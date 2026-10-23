@@ -12,3 +12,6 @@ __pycache__/
 *.pyc
 *.pyo
 .ipynb_checkpoints/
+
+# Git LFS pointer stubs only (actual archive content was never downloaded)
+Fruits-And-Vegetables-Detection-Dataset-main/**/*.zip

@@ -1,0 +1,2 @@
+In the files:
+The sample of recorded is formatted as "The product (Mango)"_"Box position"/"Mango number".

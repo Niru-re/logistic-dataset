@@ -1,0 +1,5 @@
+"dataset","status","images","candidates","classes","excluded","duplicates_removed","leakage_groups","format_mismatches","annotation_issues","output","unresolved"
+"Fruits-360","PREPARED_WITH_LIMITATIONS","190873","190876","268","3","3","0","0","","C:\Users\nirma\OneDrive\Desktop\logistic\datasets\prepared\phase_04_image_datasets_v1\fruits_360","0"
+"Healthy & Rotten / Fruit And Vegetable Diseases Dataset","PREPARED_WITH_LIMITATIONS","27513","29291","28","1773","1773","0","403","","C:\Users\nirma\OneDrive\Desktop\logistic\datasets\prepared\phase_04_image_datasets_v1\healthy_rotten_diseases","5"
+"VegNet","PREPARED_WITH_LIMITATIONS","6150","6150","20","0","0","0","0","","C:\Users\nirma\OneDrive\Desktop\logistic\datasets\prepared\phase_04_image_datasets_v1\vegnet","0"
+"Fruits and Vegetables Detection Dataset","BLOCKED","180","","63","4","","","","8","C:\Users\nirma\OneDrive\Desktop\logistic\datasets\prepared\phase_04_image_datasets_v1\fruits_vegetables_detection","6"

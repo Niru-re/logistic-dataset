@@ -1,0 +1,174 @@
+{
+  "dataset_root": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\Fruits-Vegetables-Dataset-main\\Fruits-Vegetables-Dataset-main\\split_dataset",
+  "output_directory": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\prepared\\fresh_rotten_v1",
+  "created_utc": "2026-10-13T18:30:46Z",
+  "procedure": {
+    "existing_test_preserved": true,
+    "validation_fraction": 0.2,
+    "stratified_by_class": true,
+    "random_seed": 2048,
+    "exact_duplicate_method": "SHA-256 of complete file bytes",
+    "decode_check": "Pillow Image.open followed by full pixel load for every image",
+    "assignment_hash_overlap_check": "pairwise cross-split SHA-256 intersections verified empty"
+  },
+  "runtime": {
+    "python": "3.10.0",
+    "pillow": "10.4.0"
+  },
+  "totals": {
+    "inventoried_files": 12000,
+    "original_train": 9592,
+    "original_test": 2408,
+    "train": 7497,
+    "validation": 1876,
+    "test": 2408,
+    "excluded": 219
+  },
+  "class_counts": {
+    "FreshApple": {
+      "train": 386,
+      "validation": 97,
+      "test": 123,
+      "excluded": 6
+    },
+    "FreshBanana": {
+      "train": 398,
+      "validation": 100,
+      "test": 125,
+      "excluded": 1
+    },
+    "FreshBellpepper": {
+      "train": 382,
+      "validation": 96,
+      "test": 123,
+      "excluded": 10
+    },
+    "FreshCarrot": {
+      "train": 387,
+      "validation": 97,
+      "test": 124,
+      "excluded": 12
+    },
+    "FreshCucumber": {
+      "train": 374,
+      "validation": 94,
+      "test": 122,
+      "excluded": 18
+    },
+    "FreshMango": {
+      "train": 387,
+      "validation": 97,
+      "test": 121,
+      "excluded": 0
+    },
+    "FreshOrange": {
+      "train": 390,
+      "validation": 97,
+      "test": 122,
+      "excluded": 0
+    },
+    "FreshPotato": {
+      "train": 390,
+      "validation": 97,
+      "test": 123,
+      "excluded": 5
+    },
+    "FreshStrawberry": {
+      "train": 386,
+      "validation": 96,
+      "test": 121,
+      "excluded": 0
+    },
+    "FreshTomato": {
+      "train": 385,
+      "validation": 96,
+      "test": 121,
+      "excluded": 2
+    },
+    "RottenApple": {
+      "train": 374,
+      "validation": 94,
+      "test": 118,
+      "excluded": 2
+    },
+    "RottenBanana": {
+      "train": 368,
+      "validation": 92,
+      "test": 116,
+      "excluded": 0
+    },
+    "RottenBellpepper": {
+      "train": 345,
+      "validation": 86,
+      "test": 119,
+      "excluded": 41
+    },
+    "RottenCarrot": {
+      "train": 317,
+      "validation": 79,
+      "test": 116,
+      "excluded": 68
+    },
+    "RottenCucumber": {
+      "train": 366,
+      "validation": 92,
+      "test": 119,
+      "excluded": 16
+    },
+    "RottenMango": {
+      "train": 379,
+      "validation": 95,
+      "test": 119,
+      "excluded": 0
+    },
+    "RottenOrange": {
+      "train": 378,
+      "validation": 94,
+      "test": 119,
+      "excluded": 0
+    },
+    "RottenPotato": {
+      "train": 358,
+      "validation": 90,
+      "test": 117,
+      "excluded": 20
+    },
+    "RottenStrawberry": {
+      "train": 381,
+      "validation": 95,
+      "test": 120,
+      "excluded": 0
+    },
+    "RottenTomato": {
+      "train": 366,
+      "validation": 92,
+      "test": 120,
+      "excluded": 18
+    }
+  },
+  "detected_format_counts": {
+    "PNG": 2409,
+    "JPEG": 9573,
+    "WEBP": 17,
+    "MPO": 1
+  },
+  "decode_failure_count": 0,
+  "decode_failures": [],
+  "exact_train_hashes_matching_test": 76,
+  "train_records_excluded_for_test_exact_duplicate": 79,
+  "visually_reviewed_near_duplicate_train_candidates": [
+    "train/FreshCucumber/freshCucumber (99).jpg",
+    "train/RottenCucumber/rottenCucumber (98).jpg"
+  ],
+  "residual_train_duplicate_groups": 135,
+  "cross_split_hash_overlaps": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "notes": [
+    "Original dataset image files were read only; no image files were copied, moved, renamed, or modified.",
+    "Existing test files remain assigned to test; unreadable test files, if any, are flagged as unusable in the exclusion manifest.",
+    "Three visually identified near-duplicate pairs involved two training-side candidates; both training candidates were conservatively excluded."
+  ]
+}

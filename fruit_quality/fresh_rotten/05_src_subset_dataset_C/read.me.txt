@@ -1,0 +1,2 @@
+In the files:
+The sample of recorded is formatted as "Box position"/"Mango number"-"Measurement position"

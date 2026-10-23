@@ -1,0 +1,125 @@
+{
+  "label_semantics": "Original produce/quality folder hierarchy preserved; no collapse to Fresh/Rotten.",
+  "classes": [
+    {
+      "class_id": 0,
+      "class_name": "1. Bell Pepper/Damaged",
+      "original_label": "1. Bell Pepper/Damaged",
+      "semantics": "Folder-derived quality state “Damaged” for produce category “1. Bell Pepper”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 1,
+      "class_name": "1. Bell Pepper/Dried",
+      "original_label": "1. Bell Pepper/Dried",
+      "semantics": "Folder-derived quality state “Dried” for produce category “1. Bell Pepper”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 2,
+      "class_name": "1. Bell Pepper/Old",
+      "original_label": "1. Bell Pepper/Old",
+      "semantics": "Folder-derived quality state “Old” for produce category “1. Bell Pepper”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 3,
+      "class_name": "1. Bell Pepper/Ripe",
+      "original_label": "1. Bell Pepper/Ripe",
+      "semantics": "Folder-derived quality state “Ripe” for produce category “1. Bell Pepper”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 4,
+      "class_name": "1. Bell Pepper/Unripe",
+      "original_label": "1. Bell Pepper/Unripe",
+      "semantics": "Folder-derived quality state “Unripe” for produce category “1. Bell Pepper”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 5,
+      "class_name": "2. Chile Pepper/Damaged",
+      "original_label": "2. Chile Pepper/Damaged",
+      "semantics": "Folder-derived quality state “Damaged” for produce category “2. Chile Pepper”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 6,
+      "class_name": "2. Chile Pepper/Dried",
+      "original_label": "2. Chile Pepper/Dried",
+      "semantics": "Folder-derived quality state “Dried” for produce category “2. Chile Pepper”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 7,
+      "class_name": "2. Chile Pepper/Old",
+      "original_label": "2. Chile Pepper/Old",
+      "semantics": "Folder-derived quality state “Old” for produce category “2. Chile Pepper”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 8,
+      "class_name": "2. Chile Pepper/Ripe",
+      "original_label": "2. Chile Pepper/Ripe",
+      "semantics": "Folder-derived quality state “Ripe” for produce category “2. Chile Pepper”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 9,
+      "class_name": "2. Chile Pepper/Unripe",
+      "original_label": "2. Chile Pepper/Unripe",
+      "semantics": "Folder-derived quality state “Unripe” for produce category “2. Chile Pepper”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 10,
+      "class_name": "3. New Mexico Green Chile/Damaged",
+      "original_label": "3. New Mexico Green Chile/Damaged",
+      "semantics": "Folder-derived quality state “Damaged” for produce category “3. New Mexico Green Chile”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 11,
+      "class_name": "3. New Mexico Green Chile/Dried",
+      "original_label": "3. New Mexico Green Chile/Dried",
+      "semantics": "Folder-derived quality state “Dried” for produce category “3. New Mexico Green Chile”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 12,
+      "class_name": "3. New Mexico Green Chile/Old",
+      "original_label": "3. New Mexico Green Chile/Old",
+      "semantics": "Folder-derived quality state “Old” for produce category “3. New Mexico Green Chile”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 13,
+      "class_name": "3. New Mexico Green Chile/Ripe",
+      "original_label": "3. New Mexico Green Chile/Ripe",
+      "semantics": "Folder-derived quality state “Ripe” for produce category “3. New Mexico Green Chile”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 14,
+      "class_name": "3. New Mexico Green Chile/Unripe",
+      "original_label": "3. New Mexico Green Chile/Unripe",
+      "semantics": "Folder-derived quality state “Unripe” for produce category “3. New Mexico Green Chile”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 15,
+      "class_name": "4. Tomato/Damaged",
+      "original_label": "4. Tomato/Damaged",
+      "semantics": "Folder-derived quality state “Damaged” for produce category “4. Tomato”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 16,
+      "class_name": "4. Tomato/Old",
+      "original_label": "4. Tomato/Old",
+      "semantics": "Folder-derived quality state “Old” for produce category “4. Tomato”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 17,
+      "class_name": "4. Tomato/Ripe",
+      "original_label": "4. Tomato/Ripe",
+      "semantics": "Folder-derived quality state “Ripe” for produce category “4. Tomato”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 18,
+      "class_name": "4. Tomato/Unripe",
+      "original_label": "4. Tomato/Unripe",
+      "semantics": "Folder-derived quality state “Unripe” for produce category “4. Tomato”; source directory title lists Unripe, Ripe, Old, Dried and Damaged."
+    },
+    {
+      "class_id": 19,
+      "class_name": "4. Tomato/Dried",
+      "original_label": "4. Tomato/Dried",
+      "semantics": "Folder-derived quality state; source folder exists but contains zero images."
+    }
+  ]
+}

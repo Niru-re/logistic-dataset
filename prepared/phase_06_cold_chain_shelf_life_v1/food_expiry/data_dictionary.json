@@ -1,0 +1,61 @@
+{
+  "columns": [
+    {
+      "column": "Food_type",
+      "observed_type": "string",
+      "meaning": "Product category (README and field name agree).",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 1,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "Storage_condition",
+      "observed_type": "string",
+      "meaning": "Storage category (field observed; README instead names Packaging and Storage_temperature).",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 4,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "Temperature",
+      "observed_type": "numeric",
+      "meaning": "Storage temperature (field context suggests this; unit is not explicitly attached to values in schema).",
+      "unit": "Unstated (README says °C for differently named Storage_temperature)",
+      "missing_count": 0,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "Humidity",
+      "observed_type": "numeric",
+      "meaning": "Humidity measurement (field context suggests this; unit not explicitly encoded).",
+      "unit": "Unstated",
+      "missing_count": 0,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "Packaging",
+      "observed_type": "string",
+      "meaning": "Packaging type (README and field name agree).",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 4,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "Date_of_purchase",
+      "observed_type": "datetime_like",
+      "meaning": "Purchase date as recorded; no time/ timezone.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "Expiry_days",
+      "observed_type": "numeric",
+      "meaning": "Target candidate stated in README as days until expiry; actual label-generation rule and ground-truth source not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    }
+  ],
+  "limitations": "Meanings indicated by README remain claims until provenance/schema are reconciled."
+}

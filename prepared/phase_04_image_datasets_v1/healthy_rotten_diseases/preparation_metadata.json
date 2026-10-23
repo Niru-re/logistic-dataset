@@ -1,0 +1,173 @@
+{
+  "dataset": "Healthy & Rotten / Fruit And Vegetable Diseases Dataset",
+  "source_root": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\healty_&_rotten\\Fruit And Vegetable Diseases Dataset",
+  "created_utc": "2026-10-14T11:29:27Z",
+  "status": "PREPARED_WITH_LIMITATIONS",
+  "seed": 2048,
+  "split_method": "deterministic per-class 80/10/10 assignment after exact-duplicate grouping",
+  "source_split_names": {},
+  "candidate_decodable_images_before_duplicate_handling": 29291,
+  "accepted_images": 27513,
+  "excluded_records": 1773,
+  "unresolved_records": 5,
+  "exact_duplicate_files_removed": 1773,
+  "cross_official_split_duplicate_groups_excluded": 0,
+  "class_count": 28,
+  "class_distribution_by_split": {
+    "Apple__Healthy": {
+      "train": 1945,
+      "test": 244,
+      "validation": 243
+    },
+    "Apple__Rotten": {
+      "train": 2344,
+      "test": 293,
+      "validation": 293
+    },
+    "Banana__Healthy": {
+      "train": 1599,
+      "validation": 199,
+      "test": 201
+    },
+    "Banana__Rotten": {
+      "train": 2234,
+      "validation": 279,
+      "test": 280
+    },
+    "Bellpepper__Healthy": {
+      "validation": 60,
+      "train": 480,
+      "test": 60
+    },
+    "Bellpepper__Rotten": {
+      "train": 437,
+      "validation": 54,
+      "test": 56
+    },
+    "Carrot__Healthy": {
+      "train": 486,
+      "validation": 60,
+      "test": 62
+    },
+    "Carrot__Rotten": {
+      "train": 404,
+      "test": 52,
+      "validation": 50
+    },
+    "Cucumber__Healthy": {
+      "validation": 59,
+      "train": 472,
+      "test": 60
+    },
+    "Cucumber__Rotten": {
+      "train": 460,
+      "test": 59,
+      "validation": 57
+    },
+    "Grape__Healthy": {
+      "test": 20,
+      "train": 160,
+      "validation": 20
+    },
+    "Grape__Rotten": {
+      "train": 160,
+      "test": 20,
+      "validation": 20
+    },
+    "Guava__Healthy": {
+      "train": 160,
+      "test": 20,
+      "validation": 20
+    },
+    "Guava__Rotten": {
+      "train": 160,
+      "test": 20,
+      "validation": 20
+    },
+    "Jujube__Healthy": {
+      "train": 160,
+      "test": 20,
+      "validation": 20
+    },
+    "Jujube__Rotten": {
+      "train": 160,
+      "validation": 20,
+      "test": 20
+    },
+    "Mango__Healthy": {
+      "train": 1143,
+      "test": 144,
+      "validation": 142
+    },
+    "Mango__Rotten": {
+      "train": 1411,
+      "validation": 176,
+      "test": 177
+    },
+    "Orange__Healthy": {
+      "train": 1640,
+      "test": 206,
+      "validation": 205
+    },
+    "Orange__Rotten": {
+      "train": 1724,
+      "test": 217,
+      "validation": 215
+    },
+    "Pomegranate__Healthy": {
+      "train": 160,
+      "test": 20,
+      "validation": 20
+    },
+    "Pomegranate__Rotten": {
+      "train": 160,
+      "test": 20,
+      "validation": 20
+    },
+    "Potato__Healthy": {
+      "train": 488,
+      "validation": 61,
+      "test": 61
+    },
+    "Potato__Rotten": {
+      "train": 451,
+      "validation": 56,
+      "test": 57
+    },
+    "Strawberry__Healthy": {
+      "train": 1016,
+      "test": 128,
+      "validation": 127
+    },
+    "Strawberry__Rotten": {
+      "train": 1048,
+      "validation": 131,
+      "test": 131
+    },
+    "Tomato__Healthy": {
+      "train": 481,
+      "validation": 60,
+      "test": 61
+    },
+    "Tomato__Rotten": {
+      "train": 459,
+      "test": 58,
+      "validation": 57
+    }
+  },
+  "actual_format_counts": {
+    "JPEG": 15329,
+    "PNG": 12167,
+    "WEBP": 16,
+    "MPO": 1
+  },
+  "extension_format_mismatches": 403,
+  "decode_failure_count": 0,
+  "environment": {
+    "python": "3.13.7",
+    "pillow": "12.1.1"
+  },
+  "preprocessing": "No pixels written or transformed; manifests reference original files. Pillow decode verification only.",
+  "exact_duplicate_file_excess_count": 1776,
+  "conflicting_duplicate_groups_unresolved": 2
+}

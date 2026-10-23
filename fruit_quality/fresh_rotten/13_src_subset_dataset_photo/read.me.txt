@@ -1,0 +1,2 @@
+In the files:
+The sample of recorded is formatted as "Box position"_"storage temperature"_"Relative date".

@@ -1,0 +1,213 @@
+{
+  "columns": [
+    {
+      "column": "timestamp",
+      "observed_type": "datetime_like",
+      "meaning": "Timestamp string; no timezone specified.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "vehicle_gps_latitude",
+      "observed_type": "numeric",
+      "meaning": "Latitude by name; coordinate reference / provenance unknown.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "vehicle_gps_longitude",
+      "observed_type": "numeric",
+      "meaning": "Longitude by name; coordinate reference / provenance unknown.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "fuel_consumption_rate",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "eta_variation_hours",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "traffic_congestion_level",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "warehouse_inventory_level",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "loading_unloading_time",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "handling_equipment_availability",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "order_fulfillment_status",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "weather_condition_severity",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "port_congestion_level",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "shipping_costs",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "supplier_reliability_score",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "lead_time_days",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "historical_demand",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "iot_temperature",
+      "observed_type": "numeric",
+      "meaning": "Temperature-like IoT field; unit and sampling semantics unknown.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "cargo_condition_status",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "route_risk_level",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "customs_clearance_time",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "driver_behavior_score",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "fatigue_monitoring_score",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "disruption_likelihood_score",
+      "observed_type": "numeric",
+      "meaning": "Unknown; not documented.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "See data_quality_report.json; observed distributions do not verify semantic validity."
+    },
+    {
+      "column": "delay_probability",
+      "observed_type": "numeric",
+      "meaning": "Probability-like candidate target by name; target-generation procedure unknown.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "risk_classification",
+      "observed_type": "string",
+      "meaning": "Categorical risk label by name; class policy / generation unknown.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    },
+    {
+      "column": "delivery_time_deviation",
+      "observed_type": "numeric",
+      "meaning": "Delivery deviation-like field by name; unit and whether available at prediction time unknown.",
+      "unit": "Unknown unless explicitly documented.",
+      "missing_count": 0,
+      "known_limitations": "Documented meaning may still not establish data provenance or target validity."
+    }
+  ],
+  "limitations": "Observed statistical patterns do not verify field semantics."
+}

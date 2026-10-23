@@ -1,0 +1,383 @@
+{
+  "source_config": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\Fruits-And-Vegetables-Detection-Dataset-main\\Fruits-And-Vegetables-Detection-Dataset-main\\LVIS_Fruits_And_Vegetables\\data.yaml",
+  "classes": [
+    {
+      "class_id": 0,
+      "class_name": "almond",
+      "original_label": "almond",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 1,
+      "class_name": "apple",
+      "original_label": "apple",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 2,
+      "class_name": "apricot",
+      "original_label": "apricot",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 3,
+      "class_name": "artichoke",
+      "original_label": "artichoke",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 4,
+      "class_name": "asparagus",
+      "original_label": "asparagus",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 5,
+      "class_name": "avocado",
+      "original_label": "avocado",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 6,
+      "class_name": "banana",
+      "original_label": "banana",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 7,
+      "class_name": "bean curd/tofu",
+      "original_label": "bean curd/tofu",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 8,
+      "class_name": "bell pepper/capsicum",
+      "original_label": "bell pepper/capsicum",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 9,
+      "class_name": "blackberry",
+      "original_label": "blackberry",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 10,
+      "class_name": "blueberry",
+      "original_label": "blueberry",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 11,
+      "class_name": "broccoli",
+      "original_label": "broccoli",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 12,
+      "class_name": "brussels sprouts",
+      "original_label": "brussels sprouts",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 13,
+      "class_name": "cantaloup/cantaloupe",
+      "original_label": "cantaloup/cantaloupe",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 14,
+      "class_name": "carrot",
+      "original_label": "carrot",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 15,
+      "class_name": "cauliflower",
+      "original_label": "cauliflower",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 16,
+      "class_name": "cayenne/cayenne spice/cayenne pepper/cayenne pepper spice/red pepper/red pepper",
+      "original_label": "cayenne/cayenne spice/cayenne pepper/cayenne pepper spice/red pepper/red pepper",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 17,
+      "class_name": "celery",
+      "original_label": "celery",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 18,
+      "class_name": "cherry",
+      "original_label": "cherry",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 19,
+      "class_name": "chickpea/garbanzo",
+      "original_label": "chickpea/garbanzo",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 20,
+      "class_name": "chili/chili vegetable/chili pepper/chili pepper vegetable/chilli/chilli vegetable/chilly/chilly",
+      "original_label": "chili/chili vegetable/chili pepper/chili pepper vegetable/chilli/chilli vegetable/chilly/chilly",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 21,
+      "class_name": "clementine",
+      "original_label": "clementine",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 22,
+      "class_name": "coconut/cocoanut",
+      "original_label": "coconut/cocoanut",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 23,
+      "class_name": "edible corn/corn/maize",
+      "original_label": "edible corn/corn/maize",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 24,
+      "class_name": "cucumber/cuke",
+      "original_label": "cucumber/cuke",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 25,
+      "class_name": "date/date fruit",
+      "original_label": "date/date fruit",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 26,
+      "class_name": "eggplant/aubergine",
+      "original_label": "eggplant/aubergine",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 27,
+      "class_name": "fig/fig fruit",
+      "original_label": "fig/fig fruit",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 28,
+      "class_name": "garlic/ail",
+      "original_label": "garlic/ail",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 29,
+      "class_name": "ginger/gingerroot",
+      "original_label": "ginger/gingerroot",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 30,
+      "class_name": "Strawberry",
+      "original_label": "Strawberry",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 31,
+      "class_name": "gourd",
+      "original_label": "gourd",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 32,
+      "class_name": "grape",
+      "original_label": "grape",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 33,
+      "class_name": "green bean",
+      "original_label": "green bean",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 34,
+      "class_name": "green onion/spring onion/scallion",
+      "original_label": "green onion/spring onion/scallion",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 35,
+      "class_name": "Tomato",
+      "original_label": "Tomato",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 36,
+      "class_name": "kiwi fruit",
+      "original_label": "kiwi fruit",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 37,
+      "class_name": "lemon",
+      "original_label": "lemon",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 38,
+      "class_name": "lettuce",
+      "original_label": "lettuce",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 39,
+      "class_name": "lime",
+      "original_label": "lime",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 40,
+      "class_name": "mandarin orange",
+      "original_label": "mandarin orange",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 41,
+      "class_name": "melon",
+      "original_label": "melon",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 42,
+      "class_name": "mushroom",
+      "original_label": "mushroom",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 43,
+      "class_name": "onion",
+      "original_label": "onion",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 44,
+      "class_name": "orange/orange fruit",
+      "original_label": "orange/orange fruit",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 45,
+      "class_name": "papaya",
+      "original_label": "papaya",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 46,
+      "class_name": "pea/pea food",
+      "original_label": "pea/pea food",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 47,
+      "class_name": "peach",
+      "original_label": "peach",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 48,
+      "class_name": "pear",
+      "original_label": "pear",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 49,
+      "class_name": "persimmon",
+      "original_label": "persimmon",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 50,
+      "class_name": "pickle",
+      "original_label": "pickle",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 51,
+      "class_name": "pineapple",
+      "original_label": "pineapple",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 52,
+      "class_name": "potato",
+      "original_label": "potato",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 53,
+      "class_name": "prune",
+      "original_label": "prune",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 54,
+      "class_name": "pumpkin",
+      "original_label": "pumpkin",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 55,
+      "class_name": "radish/daikon",
+      "original_label": "radish/daikon",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 56,
+      "class_name": "raspberry",
+      "original_label": "raspberry",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 57,
+      "class_name": "strawberry",
+      "original_label": "strawberry",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 58,
+      "class_name": "sweet potato",
+      "original_label": "sweet potato",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 59,
+      "class_name": "tomato",
+      "original_label": "tomato",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 60,
+      "class_name": "turnip",
+      "original_label": "turnip",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 61,
+      "class_name": "watermelon",
+      "original_label": "watermelon",
+      "semantics": "source YOLO object class"
+    },
+    {
+      "class_id": 62,
+      "class_name": "zucchini/courgette",
+      "original_label": "zucchini/courgette",
+      "semantics": "source YOLO object class"
+    }
+  ]
+}

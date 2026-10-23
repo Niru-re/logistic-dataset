@@ -1,0 +1,974 @@
+{
+  "source_file": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\Food-Expiry-Days-Prediction-Using-Machine-learning-main\\Food-Expiry-Days-Prediction-Using-Machine-learning-main\\food_expiry_dataset.csv",
+  "rows": 200000,
+  "columns": 7,
+  "column_names": [
+    "Food_type",
+    "Storage_condition",
+    "Temperature",
+    "Humidity",
+    "Packaging",
+    "Date_of_purchase",
+    "Expiry_days"
+  ],
+  "schema": [
+    {
+      "column": "Food_type",
+      "observed_type": "string",
+      "observed_unique_count": 9,
+      "missing_count": 1,
+      "missing_fraction": 5e-06,
+      "numeric_count": 0,
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "Storage_condition",
+      "observed_type": "string",
+      "observed_unique_count": 4,
+      "missing_count": 4,
+      "missing_fraction": 2e-05,
+      "numeric_count": 0,
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "Temperature",
+      "observed_type": "numeric",
+      "observed_unique_count": 551,
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 200000,
+      "numeric_min": -20.0,
+      "numeric_max": 35.0,
+      "numeric_mean": 7.486997999999963,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "Humidity",
+      "observed_type": "numeric",
+      "observed_unique_count": 70,
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 200000,
+      "numeric_min": 20.0,
+      "numeric_max": 89.0,
+      "numeric_mean": 54.4575,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "Packaging",
+      "observed_type": "string",
+      "observed_unique_count": 4,
+      "missing_count": 4,
+      "missing_fraction": 2e-05,
+      "numeric_count": 0,
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "Date_of_purchase",
+      "observed_type": "datetime_like",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 0,
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "Expiry_days",
+      "observed_type": "numeric",
+      "observed_unique_count": 140,
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 200000,
+      "numeric_min": 1.0,
+      "numeric_max": 187.0,
+      "numeric_mean": 16.586445,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    }
+  ],
+  "missing_by_column": {
+    "Packaging": 4,
+    "Storage_condition": 4,
+    "Food_type": 1
+  },
+  "duplicate_findings": {
+    "exact_duplicate_rows_after_header": 0
+  },
+  "timestamp_findings": {
+    "Date_of_purchase": {
+      "parsed_count": 200000,
+      "parse_failures": 0,
+      "min": "2023-01-01T00:00:00",
+      "max": "2045-10-25T00:00:00",
+      "unique_timestamp_count": 8334,
+      "repeated_timestamp_values": 8334,
+      "median_gap_seconds": 0.0,
+      "gap_seconds_range": [
+        0.0,
+        86400.0
+      ],
+      "original_order_monotonic_non_decreasing": true
+    }
+  },
+  "target_value_counts": {
+    "Expiry_days": {
+      "19": 3228,
+      "30": 1557,
+      "10": 7858,
+      "5": 10722,
+      "42": 1297,
+      "11": 5759,
+      "9": 8874,
+      "4": 11249,
+      "7": 11061,
+      "12": 6471,
+      "38": 455,
+      "59": 262,
+      "46": 1222,
+      "16": 4363,
+      "22": 2115,
+      "27": 2191,
+      "1": 9230,
+      "31": 2096,
+      "28": 2428,
+      "23": 2948,
+      "2": 10958,
+      "15": 5982,
+      "71": 73,
+      "13": 4935,
+      "14": 5741,
+      "6": 9988,
+      "8": 7331,
+      "26": 2031,
+      "3": 12951,
+      "40": 954,
+      "87": 112,
+      "45": 601,
+      "44": 675,
+      "25": 1885,
+      "20": 2678,
+      "41": 318,
+      "36": 1483,
+      "32": 1090,
+      "33": 1567,
+      "63": 235,
+      "17": 2290,
+      "24": 2308,
+      "54": 873,
+      "29": 1255,
+      "66": 296,
+      "18": 5391,
+      "37": 1158,
+      "34": 728,
+      "81": 246,
+      "43": 537,
+      "39": 1769,
+      "70": 383,
+      "84": 176,
+      "21": 3880,
+      "60": 584,
+      "50": 789,
+      "56": 476,
+      "78": 416,
+      "65": 306,
+      "53": 144,
+      "51": 299,
+      "74": 272,
+      "58": 547,
+      "49": 414,
+      "79": 98,
+      "35": 1300,
+      "97": 120,
+      "140": 32,
+      "93": 248,
+      "96": 69,
+      "48": 743,
+      "57": 399,
+      "67": 169,
+      "102": 52,
+      "68": 157,
+      "47": 119,
+      "72": 291,
+      "55": 106,
+      "69": 157,
+      "52": 642,
+      "75": 245,
+      "112": 26,
+      "62": 512,
+      "85": 140,
+      "126": 13,
+      "101": 107,
+      "105": 111,
+      "131": 12,
+      "152": 17,
+      "88": 67,
+      "99": 22,
+      "135": 9,
+      "117": 128,
+      "109": 78,
+      "64": 130,
+      "121": 17,
+      "89": 122,
+      "128": 18,
+      "118": 14,
+      "136": 23,
+      "76": 71,
+      "90": 133,
+      "77": 20,
+      "108": 32,
+      "113": 58,
+      "111": 26,
+      "98": 51,
+      "120": 39,
+      "91": 47,
+      "83": 39,
+      "124": 36,
+      "149": 5,
+      "80": 51,
+      "73": 25,
+      "148": 19,
+      "107": 27,
+      "187": 6,
+      "104": 40,
+      "115": 10,
+      "86": 36,
+      "61": 44,
+      "156": 20,
+      "82": 16,
+      "163": 3,
+      "159": 3,
+      "144": 21,
+      "100": 21,
+      "95": 3,
+      "132": 18,
+      "114": 19,
+      "182": 3,
+      "106": 4,
+      "129": 3,
+      "177": 4,
+      "145": 4,
+      "173": 2,
+      "133": 5,
+      "154": 7,
+      "168": 3,
+      "122": 2
+    }
+  },
+  "categorical_value_counts": {
+    "Food_type": {
+      "Fruit": 25290,
+      "Eggs": 25122,
+      "Bread": 25056,
+      "Meat": 25029,
+      "Fish": 24986,
+      "Milk": 24983,
+      "Juice": 24853,
+      "Vegetable": 24680
+    },
+    "Storage_condition": {
+      "Fridge": 66759,
+      "Room": 66629,
+      "Freezer": 66608
+    },
+    "Packaging": {
+      "Sealed": 66809,
+      "Vacuum": 66616,
+      "Open": 66571
+    }
+  },
+  "screening_range_findings": {},
+  "gps_invalid_latitude_rows": 0,
+  "gps_invalid_longitude_rows": 0,
+  "notes": [],
+  "category_storage_target_combinations": {
+    "fields": [
+      "Food_type",
+      "Storage_condition",
+      "Expiry_days"
+    ],
+    "distinct_combinations": 1171,
+    "top_combinations": [
+      {
+        "values": [
+          "Bread",
+          "Room",
+          "1"
+        ],
+        "count": 3643
+      },
+      {
+        "values": [
+          "Bread",
+          "Room",
+          "2"
+        ],
+        "count": 2028
+      },
+      {
+        "values": [
+          "Milk",
+          "Room",
+          "2"
+        ],
+        "count": 1892
+      },
+      {
+        "values": [
+          "Milk",
+          "Room",
+          "1"
+        ],
+        "count": 1812
+      },
+      {
+        "values": [
+          "Milk",
+          "Room",
+          "3"
+        ],
+        "count": 1779
+      },
+      {
+        "values": [
+          "Bread",
+          "Room",
+          "3"
+        ],
+        "count": 1647
+      },
+      {
+        "values": [
+          "Bread",
+          "Fridge",
+          "3"
+        ],
+        "count": 1478
+      },
+      {
+        "values": [
+          "Fruit",
+          "Room",
+          "3"
+        ],
+        "count": 1370
+      },
+      {
+        "values": [
+          "Bread",
+          "Fridge",
+          "2"
+        ],
+        "count": 1350
+      },
+      {
+        "values": [
+          "Fruit",
+          "Room",
+          "2"
+        ],
+        "count": 1263
+      },
+      {
+        "values": [
+          "Bread",
+          "Fridge",
+          "4"
+        ],
+        "count": 1150
+      },
+      {
+        "values": [
+          "Fruit",
+          "Room",
+          "1"
+        ],
+        "count": 1096
+      },
+      {
+        "values": [
+          "Vegetable",
+          "Room",
+          "3"
+        ],
+        "count": 1061
+      },
+      {
+        "values": [
+          "Milk",
+          "Room",
+          "4"
+        ],
+        "count": 1047
+      },
+      {
+        "values": [
+          "Milk",
+          "Fridge",
+          "7"
+        ],
+        "count": 1000
+      },
+      {
+        "values": [
+          "Fruit",
+          "Room",
+          "4"
+        ],
+        "count": 997
+      },
+      {
+        "values": [
+          "Milk",
+          "Fridge",
+          "4"
+        ],
+        "count": 957
+      },
+      {
+        "values": [
+          "Vegetable",
+          "Room",
+          "5"
+        ],
+        "count": 949
+      },
+      {
+        "values": [
+          "Fruit",
+          "Room",
+          "5"
+        ],
+        "count": 947
+      },
+      {
+        "values": [
+          "Milk",
+          "Fridge",
+          "3"
+        ],
+        "count": 927
+      },
+      {
+        "values": [
+          "Vegetable",
+          "Room",
+          "4"
+        ],
+        "count": 878
+      },
+      {
+        "values": [
+          "Bread",
+          "Fridge",
+          "7"
+        ],
+        "count": 874
+      },
+      {
+        "values": [
+          "Bread",
+          "Fridge",
+          "1"
+        ],
+        "count": 840
+      },
+      {
+        "values": [
+          "Milk",
+          "Fridge",
+          "6"
+        ],
+        "count": 836
+      },
+      {
+        "values": [
+          "Milk",
+          "Fridge",
+          "5"
+        ],
+        "count": 832
+      },
+      {
+        "values": [
+          "Juice",
+          "Room",
+          "3"
+        ],
+        "count": 817
+      },
+      {
+        "values": [
+          "Bread",
+          "Fridge",
+          "5"
+        ],
+        "count": 816
+      },
+      {
+        "values": [
+          "Juice",
+          "Room",
+          "5"
+        ],
+        "count": 813
+      },
+      {
+        "values": [
+          "Bread",
+          "Freezer",
+          "4"
+        ],
+        "count": 794
+      },
+      {
+        "values": [
+          "Milk",
+          "Room",
+          "5"
+        ],
+        "count": 789
+      }
+    ]
+  },
+  "temperature_and_target_by_category_storage": [
+    {
+      "food_type": "",
+      "storage_condition": "Room",
+      "n": 1,
+      "temp_min": 27.0,
+      "temp_max": 27.0,
+      "temp_sum": 27.0,
+      "expiry_min": 1.0,
+      "expiry_max": 1.0,
+      "expiry_sum": 1.0,
+      "temperature_mean": 27.0,
+      "expiry_days_mean": 1.0
+    },
+    {
+      "food_type": "Bread",
+      "storage_condition": "Freezer",
+      "n": 8322,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 61181.299999999974,
+      "expiry_min": 1.0,
+      "expiry_max": 32.0,
+      "expiry_sum": 79850.0,
+      "temperature_mean": 7.3517543859649095,
+      "expiry_days_mean": 9.595049267003125
+    },
+    {
+      "food_type": "Bread",
+      "storage_condition": "Fridge",
+      "n": 8343,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 65152.19999999999,
+      "expiry_min": 1.0,
+      "expiry_max": 16.0,
+      "expiry_sum": 38344.0,
+      "temperature_mean": 7.8092053218266795,
+      "expiry_days_mean": 4.59594869950857
+    },
+    {
+      "food_type": "Bread",
+      "storage_condition": "Room",
+      "n": 8391,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 63664.300000000025,
+      "expiry_min": 1.0,
+      "expiry_max": 8.0,
+      "expiry_sum": 17685.0,
+      "temperature_mean": 7.587212489572163,
+      "expiry_days_mean": 2.107615302109403
+    },
+    {
+      "food_type": "Eggs",
+      "storage_condition": "",
+      "n": 1,
+      "temp_min": 23.0,
+      "temp_max": 23.0,
+      "temp_sum": 23.0,
+      "expiry_min": 8.0,
+      "expiry_max": 8.0,
+      "expiry_sum": 8.0,
+      "temperature_mean": 23.0,
+      "expiry_days_mean": 8.0
+    },
+    {
+      "food_type": "Eggs",
+      "storage_condition": "Freezer",
+      "n": 8268,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 63002.29999999984,
+      "expiry_min": 4.0,
+      "expiry_max": 140.0,
+      "expiry_sum": 333451.0,
+      "temperature_mean": 7.620016932752763,
+      "expiry_days_mean": 40.33030962747944
+    },
+    {
+      "food_type": "Eggs",
+      "storage_condition": "Fridge",
+      "n": 8481,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 62514.899999999856,
+      "expiry_min": 2.0,
+      "expiry_max": 70.0,
+      "expiry_sum": 170358.0,
+      "temperature_mean": 7.371170852493793,
+      "expiry_days_mean": 20.087018040325432
+    },
+    {
+      "food_type": "Eggs",
+      "storage_condition": "Room",
+      "n": 8372,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 64262.19999999982,
+      "expiry_min": 1.0,
+      "expiry_max": 35.0,
+      "expiry_sum": 82517.0,
+      "temperature_mean": 7.675848064978479,
+      "expiry_days_mean": 9.85630673674152
+    },
+    {
+      "food_type": "Fish",
+      "storage_condition": "",
+      "n": 1,
+      "temp_min": -18.3,
+      "temp_max": -18.3,
+      "temp_sum": -18.3,
+      "expiry_min": 24.0,
+      "expiry_max": 24.0,
+      "expiry_sum": 24.0,
+      "temperature_mean": -18.3,
+      "expiry_days_mean": 24.0
+    },
+    {
+      "food_type": "Fish",
+      "storage_condition": "Freezer",
+      "n": 8374,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 63521.70000000004,
+      "expiry_min": 2.0,
+      "expiry_max": 140.0,
+      "expiry_sum": 303608.0,
+      "temperature_mean": 7.585586338667309,
+      "expiry_days_mean": 36.256030570814424
+    },
+    {
+      "food_type": "Fish",
+      "storage_condition": "Fridge",
+      "n": 8278,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 62296.10000000001,
+      "expiry_min": 1.0,
+      "expiry_max": 70.0,
+      "expiry_sum": 148548.0,
+      "temperature_mean": 7.525501328823389,
+      "expiry_days_mean": 17.944914230490458
+    },
+    {
+      "food_type": "Fish",
+      "storage_condition": "Room",
+      "n": 8333,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 62470.799999999916,
+      "expiry_min": 1.0,
+      "expiry_max": 35.0,
+      "expiry_sum": 72611.0,
+      "temperature_mean": 7.4967958718348635,
+      "expiry_days_mean": 8.71366854674187
+    },
+    {
+      "food_type": "Fruit",
+      "storage_condition": "",
+      "n": 1,
+      "temp_min": -19.7,
+      "temp_max": -19.7,
+      "temp_sum": -19.7,
+      "expiry_min": 18.0,
+      "expiry_max": 18.0,
+      "expiry_sum": 18.0,
+      "temperature_mean": -19.7,
+      "expiry_days_mean": 18.0
+    },
+    {
+      "food_type": "Fruit",
+      "storage_condition": "Freezer",
+      "n": 8496,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 66235.4,
+      "expiry_min": 2.0,
+      "expiry_max": 70.0,
+      "expiry_sum": 166052.0,
+      "temperature_mean": 7.796068738229755,
+      "expiry_days_mean": 19.544726930320152
+    },
+    {
+      "food_type": "Fruit",
+      "storage_condition": "Fridge",
+      "n": 8494,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 60496.59999999967,
+      "expiry_min": 1.0,
+      "expiry_max": 35.0,
+      "expiry_sum": 82542.0,
+      "temperature_mean": 7.1222745467388355,
+      "expiry_days_mean": 9.717683070402638
+    },
+    {
+      "food_type": "Fruit",
+      "storage_condition": "Room",
+      "n": 8299,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 61350.59999999978,
+      "expiry_min": 1.0,
+      "expiry_max": 17.0,
+      "expiry_sum": 38032.0,
+      "temperature_mean": 7.392529220387972,
+      "expiry_days_mean": 4.582720809736113
+    },
+    {
+      "food_type": "Juice",
+      "storage_condition": "",
+      "n": 1,
+      "temp_min": 26.2,
+      "temp_max": 26.2,
+      "temp_sum": 26.2,
+      "expiry_min": 5.0,
+      "expiry_max": 5.0,
+      "expiry_sum": 5.0,
+      "temperature_mean": 26.2,
+      "expiry_days_mean": 5.0
+    },
+    {
+      "food_type": "Juice",
+      "storage_condition": "Freezer",
+      "n": 8292,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 61669.89999999981,
+      "expiry_min": 3.0,
+      "expiry_max": 117.0,
+      "expiry_sum": 271336.0,
+      "temperature_mean": 7.437276893391198,
+      "expiry_days_mean": 32.72262421611192
+    },
+    {
+      "food_type": "Juice",
+      "storage_condition": "Fridge",
+      "n": 8249,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 62660.50000000019,
+      "expiry_min": 1.0,
+      "expiry_max": 58.0,
+      "expiry_sum": 134071.0,
+      "temperature_mean": 7.59613286458967,
+      "expiry_days_mean": 16.253000363680446
+    },
+    {
+      "food_type": "Juice",
+      "storage_condition": "Room",
+      "n": 8311,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 61031.99999999999,
+      "expiry_min": 1.0,
+      "expiry_max": 29.0,
+      "expiry_sum": 65996.0,
+      "temperature_mean": 7.34352063530261,
+      "expiry_days_mean": 7.9408013476115995
+    },
+    {
+      "food_type": "Meat",
+      "storage_condition": "Freezer",
+      "n": 8321,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 63511.30000000011,
+      "expiry_min": 4.0,
+      "expiry_max": 187.0,
+      "expiry_sum": 413876.0,
+      "temperature_mean": 7.632652325441667,
+      "expiry_days_mean": 49.738733325321476
+    },
+    {
+      "food_type": "Meat",
+      "storage_condition": "Fridge",
+      "n": 8183,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 57657.00000000011,
+      "expiry_min": 1.0,
+      "expiry_max": 93.0,
+      "expiry_sum": 202734.0,
+      "temperature_mean": 7.0459489184895645,
+      "expiry_days_mean": 24.77502138579983
+    },
+    {
+      "food_type": "Meat",
+      "storage_condition": "Room",
+      "n": 8525,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 63732.099999999904,
+      "expiry_min": 1.0,
+      "expiry_max": 46.0,
+      "expiry_sum": 101791.0,
+      "temperature_mean": 7.47590615835776,
+      "expiry_days_mean": 11.940293255131964
+    },
+    {
+      "food_type": "Milk",
+      "storage_condition": "Freezer",
+      "n": 8321,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 61555.70000000008,
+      "expiry_min": 2.0,
+      "expiry_max": 46.0,
+      "expiry_sum": 118649.0,
+      "temperature_mean": 7.397632496094229,
+      "expiry_days_mean": 14.25898329527701
+    },
+    {
+      "food_type": "Milk",
+      "storage_condition": "Fridge",
+      "n": 8283,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 61426.90000000019,
+      "expiry_min": 1.0,
+      "expiry_max": 23.0,
+      "expiry_sum": 57256.0,
+      "temperature_mean": 7.416020765423179,
+      "expiry_days_mean": 6.912471326813956
+    },
+    {
+      "food_type": "Milk",
+      "storage_condition": "Room",
+      "n": 8379,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 63951.09999999985,
+      "expiry_min": 1.0,
+      "expiry_max": 11.0,
+      "expiry_sum": 26468.0,
+      "temperature_mean": 7.63230695787085,
+      "expiry_days_mean": 3.1588495047141665
+    },
+    {
+      "food_type": "Vegetable",
+      "storage_condition": "Freezer",
+      "n": 8214,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 62631.99999999997,
+      "expiry_min": 3.0,
+      "expiry_max": 93.0,
+      "expiry_sum": 225627.0,
+      "temperature_mean": 7.625030435841243,
+      "expiry_days_mean": 27.468590211833455
+    },
+    {
+      "food_type": "Vegetable",
+      "storage_condition": "Fridge",
+      "n": 8448,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 63347.99999999997,
+      "expiry_min": 1.0,
+      "expiry_max": 46.0,
+      "expiry_sum": 113632.0,
+      "temperature_mean": 7.498579545454542,
+      "expiry_days_mean": 13.450757575757576
+    },
+    {
+      "food_type": "Vegetable",
+      "storage_condition": "Room",
+      "n": 8018,
+      "temp_min": -20.0,
+      "temp_max": 35.0,
+      "temp_sum": 58036.49999999995,
+      "expiry_min": 1.0,
+      "expiry_max": 23.0,
+      "expiry_sum": 52199.0,
+      "temperature_mean": 7.238276378149158,
+      "expiry_days_mean": 6.510226989274133
+    }
+  ],
+  "task_assessment": {
+    "target_candidate": "Expiry_days (unit implied by name, not documented by machine-readable schema)",
+    "actual_expiry_date_field_present": false,
+    "purchase_date_is_not_an_expiry_or_production_date": "Date_of_purchase only; no production/expiry date column",
+    "limitations": [
+      "README schema differs from CSV: claims Packaging/Preservatives, while observed CSV contains Storage_condition/Temperature/Humidity and no Preservatives",
+      "No item, lot, brand, batch, or source ID",
+      "Dataset provenance/generation and target label definition are not evidenced",
+      "Storage label-temperature contradictions require review; e.g. dataset range screens only, not safety thresholds",
+      "No documented target time/censoring or ground-truth expiration protocol"
+    ],
+    "readiness_for_agri_cold_chain_shelf_life": "BLOCKED"
+  },
+  "documentation_discrepancy": "README claims Food_type, Packaging, Storage_temperature, Preservatives, Expiry_days; observed CSV uses Food_type, Storage_condition, Temperature, Humidity, Packaging, Date_of_purchase, Expiry_days.",
+  "provenance": "Unknown from local documentation; README describes a modeling example but does not establish record origin or target ground truth.",
+  "related_artifact_findings": {
+    "notebook": {
+      "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\Food-Expiry-Days-Prediction-Using-Machine-learning-main\\Food-Expiry-Days-Prediction-Using-Machine-learning-main\\food expiry days prediction.ipynb",
+      "saved_output_schema": "100,000 rows / 5 columns: Food_type, Packaging, Storage_temperature, Preservatives, Expiry_days",
+      "notebook_input_path": "C:/Users/tamil/food_expiry_dataset.csv",
+      "current_csv_schema": "200,000 rows / 7 different columns",
+      "interpretation": "Notebook output refers to a different schema/version/path; do not treat its model outputs or reported metrics as evaluation of the current CSV."
+    },
+    "pdf": {
+      "path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\Food-Expiry-Days-Prediction-Using-Machine-learning-main\\Food-Expiry-Days-Prediction-Using-Machine-learning-main\\Food Expiry Days Prediction-ML.pdf",
+      "metadata": "14 pages; created by Microsoft Word 2021 on 2025-10-03; full text was not extracted with available installed tools."
+    }
+  },
+  "readiness": "BLOCKED",
+  "source_integrity": {
+    "source_files_hashed_before": 568,
+    "source_files_hashed_after": 568,
+    "unchanged": true,
+    "changed_paths": [],
+    "scope": "all files under mango source directory and Food Expiry directory, plus dynamic CSV",
+    "note": "Output files are outside these source roots."
+  }
+}

@@ -1,0 +1,161 @@
+﻿review_id,original_relative_path,folder_derived_label,assigned_split,selection_reason
+R0001,train/FreshPotato/freshPotato (317).jpg,FreshPotato,train,Seeded stratified sample
+R0002,train/RottenBellpepper/rottenPepper (559).jpg,RottenBellpepper,validation,Previously flagged Phase 02D candidate
+R0003,train/FreshPotato/freshPotato (14).JPG,FreshPotato,train,Seeded stratified sample
+R0004,train/RottenBellpepper/rottenPepper (156).jpg,RottenBellpepper,train,Seeded stratified sample
+R0005,train/RottenTomato/rottenTomato (299).jpg,RottenTomato,validation,Seeded stratified sample
+R0006,train/RottenCarrot/rottenCarrot (212).jpg,RottenCarrot,train,Seeded stratified sample
+R0007,train/RottenBellpepper/rottenPepper (387).jpg,RottenBellpepper,train,Seeded stratified sample
+R0008,train/FreshBellpepper/freshPepper (327).jpg,FreshBellpepper,validation,Seeded stratified sample
+R0009,train/RottenBellpepper/rottenPepper (622).jpg,RottenBellpepper,train,Seeded stratified sample
+R0010,train/FreshTomato/freshTomato (3).jpeg,FreshTomato,train,Seeded stratified sample
+R0011,train/RottenTomato/rottenTomato (427).jpg,RottenTomato,train,Seeded stratified sample
+R0012,train/FreshTomato/freshTomato (44).png,FreshTomato,train,Seeded stratified sample
+R0013,train/RottenCarrot/rottenCarrot (376).jpg,RottenCarrot,train,Seeded stratified sample
+R0014,train/FreshCarrot/freshCarrot (277).jpg,FreshCarrot,validation,Seeded stratified sample
+R0015,train/FreshBellpepper/freshPepper (590).jpg,FreshBellpepper,train,Seeded stratified sample
+R0016,train/RottenCarrot/rottenCarrot (122).jpg,RottenCarrot,validation,Seeded stratified sample
+R0017,train/RottenBellpepper/rottenPepper (117).jpg,RottenBellpepper,train,Seeded stratified sample
+R0018,train/FreshBellpepper/freshPepper (155).jpg,FreshBellpepper,train,Seeded stratified sample
+R0019,train/RottenCarrot/rottenCarrot (470).jpg,RottenCarrot,train,Seeded stratified sample
+R0020,train/FreshPotato/freshPotato (242).jpg,FreshPotato,validation,Seeded stratified sample
+R0021,train/RottenCarrot/rottenCarrot (307).jpg,RottenCarrot,train,Seeded stratified sample
+R0022,train/FreshBellpepper/freshPepper (490).jpg,FreshBellpepper,validation,Seeded stratified sample
+R0023,train/FreshTomato/freshTomato (271).png,FreshTomato,train,Seeded stratified sample
+R0024,train/FreshBellpepper/freshPepper (463).jpg,FreshBellpepper,train,Seeded stratified sample
+R0025,train/RottenPotato/rottenPotato (184).jpg,RottenPotato,validation,Seeded stratified sample
+R0026,train/RottenPotato/rottenPotato (521).jpg,RottenPotato,train,Seeded stratified sample
+R0027,train/RottenPotato/rottenPotato (214).jpg,RottenPotato,train,Seeded stratified sample
+R0028,train/RottenBellpepper/rottenPepper (536).jpg,RottenBellpepper,train,Previously flagged Phase 02D candidate
+R0029,train/RottenPotato/rottenPotato (127).jpg,RottenPotato,train,Previously flagged Phase 02D candidate
+R0030,train/RottenBellpepper/rottenPepper (523).jpg,RottenBellpepper,train,Previously flagged Phase 02D candidate
+R0031,train/FreshCarrot/freshCarrot (589).jpg,FreshCarrot,train,Seeded stratified sample
+R0032,train/FreshCarrot/freshCarrot (125).jpg,FreshCarrot,train,Seeded stratified sample
+R0033,train/RottenPotato/rottenPotato (516).jpg,RottenPotato,validation,Seeded stratified sample
+R0034,train/RottenTomato/rottenTomato (272).jpg,RottenTomato,train,Seeded stratified sample
+R0035,train/RottenCarrot/rottenCarrot (558).jpg,RottenCarrot,train,Seeded stratified sample
+R0036,train/FreshCarrot/freshCarrot (415).jpg,FreshCarrot,train,Seeded stratified sample
+R0037,train/RottenPotato/rottenPotato (123).jpg,RottenPotato,validation,Seeded stratified sample
+R0038,train/FreshCarrot/freshCarrot (540).jpg,FreshCarrot,train,Seeded stratified sample
+R0039,train/RottenCarrot/rottenCarrot (243).jpg,RottenCarrot,train,Seeded stratified sample
+R0040,train/RottenCarrot/rottenCarrot (523).jpg,RottenCarrot,train,Previously flagged Phase 02D candidate
+R0041,train/RottenTomato/rottenTomato (371).jpg,RottenTomato,train,Seeded stratified sample
+R0042,train/RottenTomato/rottenTomato (431).jpg,RottenTomato,train,Seeded stratified sample
+R0043,train/RottenCarrot/rottenCarrot (108).jpg,RottenCarrot,train,Seeded stratified sample
+R0044,train/RottenBellpepper/rottenPepper (211).jpg,RottenBellpepper,validation,Seeded stratified sample
+R0045,train/FreshPotato/freshPotato (131).jpg,FreshPotato,train,Previously flagged Phase 02D candidate
+R0046,train/RottenPotato/rottenPotato (373).jpg,RottenPotato,train,Seeded stratified sample
+R0047,train/RottenCarrot/rottenCarrot (535).jpg,RottenCarrot,validation,Previously flagged Phase 02D candidate
+R0048,train/FreshTomato/freshTomato (272).png,FreshTomato,train,Seeded stratified sample
+R0049,train/FreshBellpepper/freshPepper (393).jpg,FreshBellpepper,train,Seeded stratified sample
+R0050,train/FreshTomato/freshTomato (96).jpg,FreshTomato,train,Seeded stratified sample
+R0051,train/FreshTomato/freshTomato (205).png,FreshTomato,train,Seeded stratified sample
+R0052,train/RottenCarrot/rottenCarrot (228).jpg,RottenCarrot,train,Seeded stratified sample
+R0053,train/FreshCarrot/freshCarrot (310).jpg,FreshCarrot,train,Seeded stratified sample
+R0054,train/FreshCarrot/freshCarrot (309).jpg,FreshCarrot,validation,Seeded stratified sample
+R0055,train/FreshPotato/freshPotato (534).jpg,FreshPotato,train,Seeded stratified sample
+R0056,train/FreshPotato/freshPotato (44).jpg,FreshPotato,validation,Seeded stratified sample
+R0057,train/FreshBellpepper/freshPepper (381).jpg,FreshBellpepper,validation,Previously flagged Phase 02D candidate
+R0058,train/FreshPotato/freshPotato (239).jpg,FreshPotato,train,Seeded stratified sample
+R0059,train/FreshCarrot/freshCarrot (65).jpg,FreshCarrot,train,Seeded stratified sample
+R0060,train/RottenPotato/rottenPotato (265).jpg,RottenPotato,validation,Previously flagged Phase 02D candidate
+R0061,train/RottenCarrot/rottenCarrot (552).jpg,RottenCarrot,validation,Seeded stratified sample
+R0062,train/FreshPotato/freshPotato (342).jpg,FreshPotato,train,Seeded stratified sample
+R0063,train/FreshPotato/freshPotato (279).jpg,FreshPotato,train,Seeded stratified sample
+R0064,train/RottenTomato/rottenTomato (421).jpg,RottenTomato,train,Seeded stratified sample
+R0065,train/FreshPotato/freshPotato (423).jpg,FreshPotato,train,Seeded stratified sample
+R0066,train/RottenPotato/rottenPotato (263).jpg,RottenPotato,train,Seeded stratified sample
+R0067,train/FreshTomato/freshTomato (249).png,FreshTomato,train,Seeded stratified sample
+R0068,train/RottenTomato/rottenTomato (581).jpg,RottenTomato,validation,Seeded stratified sample
+R0069,train/FreshTomato/freshTomato (188).png,FreshTomato,train,Seeded stratified sample
+R0070,train/RottenPotato/rottenPotato (110).jpg,RottenPotato,train,Seeded stratified sample
+R0071,train/FreshPotato/freshPotato (450).jpg,FreshPotato,train,Seeded stratified sample
+R0072,train/FreshPotato/freshPotato (74).jpg,FreshPotato,train,Previously flagged Phase 02D candidate
+R0073,train/FreshBellpepper/freshPepper (487).jpg,FreshBellpepper,train,Seeded stratified sample
+R0074,train/RottenCarrot/rottenCarrot (304).jpg,RottenCarrot,validation,Seeded stratified sample
+R0075,train/FreshBellpepper/freshPepper (377).jpg,FreshBellpepper,train,Previously flagged Phase 02D candidate
+R0076,train/FreshBellpepper/freshPepper (31).jpg,FreshBellpepper,train,Seeded stratified sample
+R0077,train/FreshCarrot/freshCarrot (143).jpg,FreshCarrot,validation,Seeded stratified sample
+R0078,train/FreshBellpepper/freshPepper (172).jpg,FreshBellpepper,train,Seeded stratified sample
+R0079,train/RottenCarrot/rottenCarrot (38).jpg,RottenCarrot,train,Previously flagged Phase 02D candidate
+R0080,train/FreshTomato/freshTomato (247).png,FreshTomato,train,Seeded stratified sample
+R0081,train/FreshCarrot/freshCarrot (140).jpg,FreshCarrot,train,Seeded stratified sample
+R0082,train/FreshTomato/freshTomato (244).png,FreshTomato,train,Seeded stratified sample
+R0083,train/FreshTomato/freshTomato (275).jpg,FreshTomato,train,Seeded stratified sample
+R0084,train/RottenCarrot/rottenCarrot (54).jpg,RottenCarrot,train,Seeded stratified sample
+R0085,train/FreshTomato/freshTomato (60).jpg,FreshTomato,validation,Seeded stratified sample
+R0086,train/RottenBellpepper/rottenPepper (118).jpg,RottenBellpepper,train,Seeded stratified sample
+R0087,train/RottenTomato/rottenTomato (227).jpg,RottenTomato,train,Seeded stratified sample
+R0088,train/FreshPotato/freshPotato (77).jpg,FreshPotato,train,Previously flagged Phase 02D candidate
+R0089,train/RottenCarrot/rottenCarrot (139).jpg,RottenCarrot,train,Seeded stratified sample
+R0090,train/RottenTomato/rottenTomato (140).jpg,RottenTomato,train,Seeded stratified sample
+R0091,train/FreshBellpepper/freshPepper (575).jpg,FreshBellpepper,train,Seeded stratified sample
+R0092,train/FreshPotato/freshPotato (525).jpg,FreshPotato,train,Seeded stratified sample
+R0093,train/RottenBellpepper/rottenPepper (256).jpg,RottenBellpepper,validation,Seeded stratified sample
+R0094,train/RottenTomato/rottenTomato (452).jpg,RottenTomato,train,Seeded stratified sample
+R0095,train/RottenPotato/rottenPotato (431).jpg,RottenPotato,train,Seeded stratified sample
+R0096,train/RottenTomato/rottenTomato (394).jpg,RottenTomato,train,Seeded stratified sample
+R0097,train/RottenBellpepper/rottenPepper (654).jpg,RottenBellpepper,train,Seeded stratified sample
+R0098,train/FreshCarrot/freshCarrot (74).jpg,FreshCarrot,train,Previously flagged Phase 02D candidate
+R0099,train/FreshTomato/freshTomato (13).jpg,FreshTomato,train,Seeded stratified sample
+R0100,train/FreshTomato/freshTomato (65).jpg,FreshTomato,train,Seeded stratified sample
+R0101,train/RottenPotato/rottenPotato (477).jpg,RottenPotato,train,Seeded stratified sample
+R0102,train/FreshTomato/freshTomato (7).png,FreshTomato,train,Seeded stratified sample
+R0103,train/RottenBellpepper/rottenPepper (139).jpg,RottenBellpepper,train,Seeded stratified sample
+R0104,train/RottenPotato/rottenPotato (267).jpg,RottenPotato,train,Seeded stratified sample
+R0105,train/FreshCarrot/freshCarrot (255).jpg,FreshCarrot,train,Previously flagged Phase 02D candidate
+R0106,train/FreshCarrot/freshCarrot (285).jpg,FreshCarrot,train,Seeded stratified sample
+R0107,train/FreshBellpepper/freshPepper (312).jpg,FreshBellpepper,train,Seeded stratified sample
+R0108,train/FreshCarrot/freshCarrot (445).jpg,FreshCarrot,train,Seeded stratified sample
+R0109,train/RottenPotato/rottenPotato (522).jpg,RottenPotato,train,Seeded stratified sample
+R0110,train/FreshBellpepper/freshPepper (296).jpg,FreshBellpepper,train,Seeded stratified sample
+R0111,train/RottenTomato/rottenTomato (535).jpg,RottenTomato,train,Seeded stratified sample
+R0112,train/FreshCarrot/freshCarrot (229).jpg,FreshCarrot,train,Seeded stratified sample
+R0113,train/RottenTomato/rottenTomato (331).jpg,RottenTomato,train,Seeded stratified sample
+R0114,train/FreshPotato/freshPotato (56).jpg,FreshPotato,train,Seeded stratified sample
+R0115,train/RottenPotato/rottenPotato (88).jpg,RottenPotato,train,Seeded stratified sample
+R0116,train/RottenTomato/rottenTomato (525).jpg,RottenTomato,train,Seeded stratified sample
+R0117,train/RottenPotato/rottenPotato (219).jpg,RottenPotato,train,Seeded stratified sample
+R0118,train/FreshCarrot/freshCarrot (353).jpg,FreshCarrot,train,Seeded stratified sample
+R0119,train/RottenBellpepper/rottenPepper (584).jpg,RottenBellpepper,train,Seeded stratified sample
+R0120,train/RottenBellpepper/rottenPepper (390).jpg,RottenBellpepper,train,Previously flagged Phase 02D candidate
+R0121,train/RottenBellpepper/rottenPepper (232).jpg,RottenBellpepper,train,Seeded stratified sample
+R0122,train/FreshTomato/freshTomato (272).jpg,FreshTomato,validation,Seeded stratified sample
+R0123,train/RottenBellpepper/rottenPepper (573).jpg,RottenBellpepper,train,Seeded stratified sample
+R0124,train/RottenBellpepper/rottenPepper (115).jpg,RottenBellpepper,train,Seeded stratified sample
+R0125,train/RottenPotato/rottenPotato (357).jpg,RottenPotato,train,Seeded stratified sample
+R0126,train/RottenCarrot/rottenCarrot (489).jpg,RottenCarrot,train,Seeded stratified sample
+R0127,train/FreshTomato/freshTomato (24).png,FreshTomato,validation,Seeded stratified sample
+R0128,train/RottenCarrot/rottenCarrot (522).jpg,RottenCarrot,train,Previously flagged Phase 02D candidate
+R0129,train/FreshPotato/freshPotato (113).jpg,FreshPotato,train,Seeded stratified sample
+R0130,train/FreshPotato/freshPotato (170).jpg,FreshPotato,train,Seeded stratified sample
+R0131,train/RottenTomato/rottenTomato (2).jpeg,RottenTomato,train,Previously flagged Phase 02D candidate
+R0132,train/RottenTomato/rottenTomato (5).jpeg,RottenTomato,validation,Seeded stratified sample
+R0133,train/RottenTomato/rottenTomato (198).jpg,RottenTomato,train,Previously flagged Phase 02D candidate
+R0134,train/RottenPotato/rottenPotato (134).jpg,RottenPotato,train,Seeded stratified sample
+R0135,train/RottenBellpepper/rottenPepper (339).jpg,RottenBellpepper,train,Previously flagged Phase 02D candidate
+R0136,train/FreshPotato/freshPotato (315).jpg,FreshPotato,train,Seeded stratified sample
+R0137,train/FreshTomato/freshTomato (20).jpg,FreshTomato,validation,Seeded stratified sample
+R0138,train/FreshBellpepper/freshPepper (285).jpg,FreshBellpepper,validation,Seeded stratified sample
+R0139,train/FreshBellpepper/freshPepper (362).jpg,FreshBellpepper,train,Seeded stratified sample
+R0140,train/FreshBellpepper/freshPepper (4).png,FreshBellpepper,train,Seeded stratified sample
+R0141,train/FreshPotato/freshPotato (153).jpg,FreshPotato,validation,Previously flagged Phase 02D candidate
+R0142,train/FreshTomato/freshTomato (117).png,FreshTomato,train,Seeded stratified sample
+R0143,train/FreshCarrot/freshCarrot (354).jpg,FreshCarrot,train,Seeded stratified sample
+R0144,train/FreshTomato/freshTomato (37).png,FreshTomato,train,Seeded stratified sample
+R0145,train/RottenCarrot/rottenCarrot (547).jpg,RottenCarrot,train,Seeded stratified sample
+R0146,train/FreshCarrot/freshCarrot (128).jpg,FreshCarrot,validation,Previously flagged Phase 02D candidate
+R0147,train/RottenCarrot/rottenCarrot (499).jpg,RottenCarrot,train,Seeded stratified sample
+R0148,train/FreshBellpepper/freshPepper (529).jpg,FreshBellpepper,train,Previously flagged Phase 02D candidate
+R0149,train/FreshBellpepper/freshPepper (259).jpg,FreshBellpepper,train,Seeded stratified sample
+R0150,train/RottenBellpepper/rottenPepper (477).jpg,RottenBellpepper,train,Seeded stratified sample
+R0151,train/FreshBellpepper/freshPepper (382).jpg,FreshBellpepper,train,Seeded stratified sample
+R0152,train/RottenBellpepper/rottenPepper (306).jpg,RottenBellpepper,validation,Previously flagged Phase 02D candidate
+R0153,train/RottenTomato/rottenTomato (391).jpg,RottenTomato,train,Seeded stratified sample
+R0154,train/FreshCarrot/freshCarrot (288).jpg,FreshCarrot,train,Previously flagged Phase 02D candidate
+R0155,train/RottenTomato/rottenTomato (203).jpg,RottenTomato,train,Seeded stratified sample
+R0156,train/FreshPotato/freshPotato (65).jpg,FreshPotato,validation,Seeded stratified sample
+R0157,train/RottenTomato/rottenTomato (564).jpg,RottenTomato,validation,Seeded stratified sample
+R0158,train/RottenPotato/rottenPotato (394).jpg,RottenPotato,train,Seeded stratified sample
+R0159,train/RottenPotato/rottenPotato (40).jpg,RottenPotato,train,Seeded stratified sample
+R0160,train/FreshCarrot/freshCarrot (451).jpg,FreshCarrot,train,Seeded stratified sample

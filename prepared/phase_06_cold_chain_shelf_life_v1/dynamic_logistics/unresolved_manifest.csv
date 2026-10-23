@@ -1,0 +1,7 @@
+﻿source_path,row_identifier,issue
+C:\Users\nirma\OneDrive\Desktop\logistic\datasets\dynamic_supply_chain_logistics_dataset.csv,,"field delay_probability meaning, unit, prediction-time availability and provenance undocumented"
+C:\Users\nirma\OneDrive\Desktop\logistic\datasets\dynamic_supply_chain_logistics_dataset.csv,,"field risk_classification meaning, unit, prediction-time availability and provenance undocumented"
+C:\Users\nirma\OneDrive\Desktop\logistic\datasets\dynamic_supply_chain_logistics_dataset.csv,,"field delivery_time_deviation meaning, unit, prediction-time availability and provenance undocumented"
+C:\Users\nirma\OneDrive\Desktop\logistic\datasets\dynamic_supply_chain_logistics_dataset.csv,,"field iot_temperature meaning, unit, prediction-time availability and provenance undocumented"
+C:\Users\nirma\OneDrive\Desktop\logistic\datasets\dynamic_supply_chain_logistics_dataset.csv,,"field eta_variation_hours meaning, unit, prediction-time availability and provenance undocumented"
+C:\Users\nirma\OneDrive\Desktop\logistic\datasets\dynamic_supply_chain_logistics_dataset.csv,,no verified shipment/trip/vehicle key; chronological records cannot be grouped into independent shipment partitions

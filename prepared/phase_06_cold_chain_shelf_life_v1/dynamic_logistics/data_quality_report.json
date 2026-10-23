@@ -1,0 +1,760 @@
+{
+  "source_file": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\dynamic_supply_chain_logistics_dataset.csv",
+  "rows": 32065,
+  "columns": 26,
+  "column_names": [
+    "timestamp",
+    "vehicle_gps_latitude",
+    "vehicle_gps_longitude",
+    "fuel_consumption_rate",
+    "eta_variation_hours",
+    "traffic_congestion_level",
+    "warehouse_inventory_level",
+    "loading_unloading_time",
+    "handling_equipment_availability",
+    "order_fulfillment_status",
+    "weather_condition_severity",
+    "port_congestion_level",
+    "shipping_costs",
+    "supplier_reliability_score",
+    "lead_time_days",
+    "historical_demand",
+    "iot_temperature",
+    "cargo_condition_status",
+    "route_risk_level",
+    "customs_clearance_time",
+    "driver_behavior_score",
+    "fatigue_monitoring_score",
+    "disruption_likelihood_score",
+    "delay_probability",
+    "risk_classification",
+    "delivery_time_deviation"
+  ],
+  "schema": [
+    {
+      "column": "timestamp",
+      "observed_type": "datetime_like",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 0,
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "vehicle_gps_latitude",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 30.0,
+      "numeric_max": 49.99999975,
+      "numeric_mean": 38.023589008576124,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "vehicle_gps_longitude",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": -119.9999984,
+      "numeric_max": -70.0,
+      "numeric_mean": -90.11664767714133,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "fuel_consumption_rate",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 5.0,
+      "numeric_max": 19.99987521,
+      "numeric_mean": 8.011734983470392,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "eta_variation_hours",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": -1.999993097,
+      "numeric_max": 5.0,
+      "numeric_mean": 2.8930680100995882,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "traffic_congestion_level",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 1.09e-09,
+      "numeric_max": 9.99999945,
+      "numeric_mean": 4.991493208920181,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "warehouse_inventory_level",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 1.32e-12,
+      "numeric_max": 999.9992985,
+      "numeric_mean": 299.2547323423035,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "loading_unloading_time",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 0.5,
+      "numeric_max": 4.999999764,
+      "numeric_mean": 2.2916691620594936,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "handling_equipment_availability",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 4.57e-16,
+      "numeric_max": 0.999999492,
+      "numeric_mean": 0.30269539746396495,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "order_fulfillment_status",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 1.32e-06,
+      "numeric_max": 1.0,
+      "numeric_mean": 0.6007395524327435,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "weather_condition_severity",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 4.54e-09,
+      "numeric_max": 0.999999997,
+      "numeric_mean": 0.49760816929683627,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "port_congestion_level",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 1.78e-06,
+      "numeric_max": 10.0,
+      "numeric_mean": 6.978413809787313,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "shipping_costs",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 100.0,
+      "numeric_max": 999.9998534,
+      "numeric_mean": 459.37445179737597,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "supplier_reliability_score",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 6.9e-10,
+      "numeric_max": 0.999999989,
+      "numeric_mean": 0.5008498907907636,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "lead_time_days",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 1.0,
+      "numeric_max": 14.99999548,
+      "numeric_mean": 5.227502056441442,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "historical_demand",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 100.0029656,
+      "numeric_max": 10000.0,
+      "numeric_mean": 6022.001285694096,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "iot_temperature",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": -10.0,
+      "numeric_max": 39.99988649,
+      "numeric_mean": 0.04479167014408225,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "cargo_condition_status",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 7.26e-19,
+      "numeric_max": 0.999999983,
+      "numeric_mean": 0.29728160306295687,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "route_risk_level",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 4.97e-05,
+      "numeric_max": 10.0,
+      "numeric_mean": 7.001144357410338,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "customs_clearance_time",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 0.500000001,
+      "numeric_max": 4.999999928,
+      "numeric_mean": 2.296447794282548,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "driver_behavior_score",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 4.04e-09,
+      "numeric_max": 1.0,
+      "numeric_mean": 0.4983912731512166,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "fatigue_monitoring_score",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 3.27e-07,
+      "numeric_max": 1.0,
+      "numeric_mean": 0.6008722993437654,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "disruption_likelihood_score",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 4.77e-05,
+      "numeric_max": 1.0,
+      "numeric_mean": 0.8036555669778244,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "delay_probability",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": 3.13e-06,
+      "numeric_max": 1.0,
+      "numeric_mean": 0.6990768456568862,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "risk_classification",
+      "observed_type": "string",
+      "observed_unique_count": 3,
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 0,
+      "numeric_min": null,
+      "numeric_max": null,
+      "numeric_mean": null,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    },
+    {
+      "column": "delivery_time_deviation",
+      "observed_type": "numeric",
+      "observed_unique_count": ">5000",
+      "missing_count": 0,
+      "missing_fraction": 0.0,
+      "numeric_count": 32065,
+      "numeric_min": -1.999997989,
+      "numeric_max": 10.0,
+      "numeric_mean": 5.177648068919134,
+      "invalid_numeric_count": 0,
+      "nonfinite_count": 0,
+      "screening_range_exceedances": 0
+    }
+  ],
+  "missing_by_column": {},
+  "duplicate_findings": {
+    "exact_duplicate_rows_after_header": 0
+  },
+  "timestamp_findings": {
+    "timestamp": {
+      "parsed_count": 32065,
+      "parse_failures": 0,
+      "min": "2021-01-01T00:00:00",
+      "max": "2024-08-29T00:00:00",
+      "unique_timestamp_count": 32065,
+      "repeated_timestamp_values": 0,
+      "median_gap_seconds": 3600.0,
+      "gap_seconds_range": [
+        3600.0,
+        3600.0
+      ],
+      "original_order_monotonic_non_decreasing": true
+    }
+  },
+  "target_value_counts": {
+    "risk_classification": {
+      "Moderate Risk": 5011,
+      "High Risk": 23944,
+      "Low Risk": 3110
+    }
+  },
+  "categorical_value_counts": {
+    "vehicle_gps_latitude": {},
+    "vehicle_gps_longitude": {},
+    "fuel_consumption_rate": {},
+    "eta_variation_hours": {},
+    "traffic_congestion_level": {},
+    "warehouse_inventory_level": {},
+    "loading_unloading_time": {},
+    "order_fulfillment_status": {},
+    "weather_condition_severity": {},
+    "port_congestion_level": {},
+    "shipping_costs": {},
+    "lead_time_days": {},
+    "historical_demand": {},
+    "iot_temperature": {},
+    "cargo_condition_status": {},
+    "route_risk_level": {},
+    "customs_clearance_time": {},
+    "risk_classification": {
+      "High Risk": 23944,
+      "Moderate Risk": 5011,
+      "Low Risk": 3110
+    },
+    "delivery_time_deviation": {}
+  },
+  "screening_range_findings": {},
+  "gps_invalid_latitude_rows": 0,
+  "gps_invalid_longitude_rows": 0,
+  "notes": [],
+  "risk_classification_vs_delay_probability": {
+    "fields": [
+      "risk_classification",
+      "delay_probability"
+    ],
+    "distinct_combinations": 31896,
+    "top_combinations": [
+      {
+        "values": [
+          "High Risk",
+          "1"
+        ],
+        "count": 39
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999999"
+        ],
+        "count": 19
+      },
+      {
+        "values": [
+          "Low Risk",
+          "1"
+        ],
+        "count": 10
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999998"
+        ],
+        "count": 8
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999995"
+        ],
+        "count": 7
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999996"
+        ],
+        "count": 6
+      },
+      {
+        "values": [
+          "Moderate Risk",
+          "1"
+        ],
+        "count": 6
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999986"
+        ],
+        "count": 5
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999975"
+        ],
+        "count": 4
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999992"
+        ],
+        "count": 4
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999982"
+        ],
+        "count": 4
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999988"
+        ],
+        "count": 4
+      },
+      {
+        "values": [
+          "Low Risk",
+          "0.999999999"
+        ],
+        "count": 3
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999898"
+        ],
+        "count": 3
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999867"
+        ],
+        "count": 3
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.99999998"
+        ],
+        "count": 3
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999993"
+        ],
+        "count": 3
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.99999996"
+        ],
+        "count": 3
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999994"
+        ],
+        "count": 3
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999121"
+        ],
+        "count": 2
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.998942774"
+        ],
+        "count": 2
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999996752"
+        ],
+        "count": 2
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.99999982"
+        ],
+        "count": 2
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999998936"
+        ],
+        "count": 2
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.998892822"
+        ],
+        "count": 2
+      },
+      {
+        "values": [
+          "Moderate Risk",
+          "0.996809609"
+        ],
+        "count": 2
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999910023"
+        ],
+        "count": 2
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999927891"
+        ],
+        "count": 2
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999116"
+        ],
+        "count": 2
+      },
+      {
+        "values": [
+          "High Risk",
+          "0.999999589"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  "delay_probability_by_risk_class": {
+    "Moderate Risk": {
+      "count": 5011,
+      "min": 4.94e-05,
+      "max": 1.0,
+      "mean": 0.6964866584184796,
+      "probability_decile_counts": {
+        "8": 546,
+        "9": 2177,
+        "2": 250,
+        "1": 253,
+        "0": 399,
+        "4": 246,
+        "5": 263,
+        "6": 284,
+        "3": 256,
+        "7": 337
+      }
+    },
+    "High Risk": {
+      "count": 23944,
+      "min": 3.13e-06,
+      "max": 1.0,
+      "mean": 0.6985948476040336,
+      "probability_decile_counts": {
+        "5": 1279,
+        "8": 2602,
+        "0": 1850,
+        "9": 10239,
+        "2": 1116,
+        "6": 1458,
+        "7": 1854,
+        "3": 1162,
+        "1": 1240,
+        "4": 1144
+      }
+    },
+    "Low Risk": {
+      "count": 3110,
+      "min": 3.11e-05,
+      "max": 1.0,
+      "mean": 0.70696121531254,
+      "probability_decile_counts": {
+        "8": 337,
+        "5": 171,
+        "9": 1364,
+        "0": 238,
+        "1": 141,
+        "7": 254,
+        "2": 153,
+        "6": 178,
+        "3": 128,
+        "4": 146
+      }
+    }
+  },
+  "task_assessment": {
+    "candidate_targets": [
+      "delay_probability",
+      "risk_classification",
+      "delivery_time_deviation"
+    ],
+    "row_unit": "unknown; timestamp rows only, no shipment/trip/vehicle identifiers",
+    "prediction_time_and_target_generation": "undocumented",
+    "post_event_or_proxy_fields": [
+      "delivery_time_deviation",
+      "eta_variation_hours",
+      "order_fulfillment_status",
+      "cargo_condition_status",
+      "route_risk_level",
+      "disruption_likelihood_score",
+      "customs_clearance_time; availability at prediction time cannot be verified"
+    ],
+    "cold_chain_applicability": "iot_temperature exists but unit and temporal meaning are undocumented; no confirmed shipment ID or grouping key",
+    "readiness_for_supervised_shipment_risk_or_delay_prediction": "BLOCKED"
+  },
+  "documentation": "No matching dataset README/schema documentation located alongside this CSV in its dataset root.",
+  "readiness": "BLOCKED",
+  "source_integrity": {
+    "source_files_hashed_before": 568,
+    "source_files_hashed_after": 568,
+    "unchanged": true,
+    "changed_paths": [],
+    "scope": "all files under mango source directory and Food Expiry directory, plus dynamic CSV",
+    "note": "Output files are outside these source roots."
+  }
+}

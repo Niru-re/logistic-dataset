@@ -1,0 +1,1334 @@
+{
+  "phase": "11",
+  "check_type": "exact_duplicate_sha256_overlap_all_partitions",
+  "sources_compared": {
+    "candidate_source": "phase_10 independent_eval_manifest.csv (Healthy & Rotten eligible candidates)",
+    "fresh_rotten_source": "datasets/prepared/fresh_rotten_v1/dataset_manifest.csv"
+  },
+  "scope": {
+    "fresh_rotten_partitions_checked": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "method": "SHA-256 exact file hash comparison (hash-only, no image inspection)"
+  },
+  "counts": {
+    "candidate_records": 17309,
+    "candidate_with_sha": 17309,
+    "fr_train_unique_shas": 7497,
+    "fr_validation_unique_shas": 1876,
+    "fr_test_unique_shas": 2393,
+    "overlap_training": 0,
+    "overlap_validation": 0,
+    "overlap_old_test": 2200,
+    "overlap_any_partition": 2200,
+    "within_candidate_duplicate_groups": 0
+  },
+  "overlap_training": [],
+  "overlap_validation": [],
+  "overlap_old_test": [
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (215).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "be9df2077c2d92e725feab919c17bed2a0e2e640590cb0dddeaa76a86a858fc9",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (215).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (230).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "015133ef33462cf134c75047573b987bdd6becc7785f69d84fb894f37f031433",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (230).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (231).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "807df261d77edbcb03e9fef3c93dbf0613382a97a9e723f9698c5a8127beebfe",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (231).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (235).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "6d88a695b3f805a5b2c452f2c85ab79a6a300d310184f54d019d3479976d27a4",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (235).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (238).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "4f9624a6eba81f2d645726fbdea2a7648983d42f4a274b06f970491e6e652975",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (238).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (239).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "b7e97c4028b8e3005c2a3b78cbff19d2f0a8a6b17f9417af4c5726e71bf17a58",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (239).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (249).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "f98ae2515e419117de70fdc30b169cda0a13cbffbefa17b8f8c5069c64c8f63d",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (249).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (250).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "9606f7f69e22b92e7aab0f4d87f5b9f111002d15b7a2f1919c42eabdb816e6e9",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (250).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (252).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "ca2c529f8558ba47142e8553029e9523a66c6e7c4f20ac9deeb562def66eeafc",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (252).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (255).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "validation",
+      "sha256": "1fda87dbfbc8e81b97f76086215bb823003c7b7b55ae82c91113da88df89b070",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (255).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (256).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "4b67b3242716ebc1895bc5438b9bba087d80e35fca3a8af9e34e39b8c831c9ee",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (256).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (296).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "validation",
+      "sha256": "a37d283d50a68cc9d5bf84682ea34d84a24638e726335308b437f199433a4edd",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (296).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (298).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "08671e960413c91c287e0fcca91c6d05e557da0239b95040fba8d217e2d7f602",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (298).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (299).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "validation",
+      "sha256": "5c46c0380d65811601f345c58afbcd64ca4a6ec044db9ec83fcf6550bdf30938",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (299).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (302).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "2c0ede02abb4ebfcc0d5d33f9d68e7706b0af8af157db8bc223e83a06c58ebc2",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (302).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (311).jpg",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "ceb74c532d3535626181905c83a3856180e241540f5df2061ca5635bd2c2de25",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (311).jpg",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (427).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "bdee8f509799df90bc8fc1aead794e24f4ab998fc73bd82b8e46618a4f11e284",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (427).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (436).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "2e4c0a35f1065109835e85e12dc51ffdaad0750caa17f4d0f49369fd4587bd65",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (436).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (438).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "266a2e53d44dd1bb64953e712a9d019b776d3d0060873c454d704c9b0d232733",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (438).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (451).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "700dc2a87d479743a60aa017f6708fed41b8ceaf993df32d57b1d28c4880ad87",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (451).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (452).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "7ab8c1ef94d832e9baf66e05919063a095b61637f1cc3bf7fa011308c329211d",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (452).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (463).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "663eb3a385c9610efff6e03401e5120074e06301aed44890ea8e8c50a058eba8",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (471).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (464).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "7afb1fe94f8f9382f7e4224cb63939d29af07799efbc9763d31d277c509302ce",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (464).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (465).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "206f9a885f544b8f272f7a3ddbf982de5087ee8d09c857de366e98e623ed468a",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (465).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (469).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "e6bfe9e7c112cfbe61476404ab3dc9c57fdc9779df8496faf806dc9af662731a",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (469).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (472).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "7fac50c8c7e45292a68fdb31396578926bb142f2c6989d445e81f95927f07298",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (472).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (478).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "5b5a6ef8396f40d59d58eff2d87baea899cf9630d3c147035d20264de703094a",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (478).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (479).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "1be2c79053c88da0a7f42017a0bd41f9e627496eaef37adff7641a188db8647f",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (479).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (484).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "31e8045f7202ec54ba164ee0fe956987e753dd96df183b3ea29b1a1245a667f4",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (484).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (485).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "719a918e5d77c5050f150315c5cd739a3a91a8e16252e64eca3b5b8e303d1a50",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (485).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (492).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "6eecadb074082e8a3b2563bb47c53e8c9d97b02231aecee8a296f0f2f9c81749",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (525).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (498).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "eb322006a82d54742edb681bc72c1086660343ade91fef1a9f697aa9d11dbf71",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (498).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (503).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "d1b92533274fa685bd567c83e1c81c640bbd68dceebf07a6e2041b51f325d8e5",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (503).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (511).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "6ebaf45bc248f5704b2e138fcc3325eda04308ccb6adfe8f377f203664ba2c2b",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (511).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (513).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "01b28b46957fa19d291e4c2c8c9db4f5212804413b0f4978f39804208886c90b",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (513).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (514).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "385a3ad119d0cae87f45505fa46dbabbb6ff5d09bbf119c88a96032cb416f243",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (514).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (516).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "1c13b1221af469f5b58d9b65b14c0d6b4278146de4b722038ac6c573449bee37",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (516).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (522).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "aa39647188db6768b41523585822151a7d8aedd89a154e6544890783752ca372",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (522).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (533).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "475459043b42a907e28227a7cc5e08d3bf78dc7900d2fc1995138f19df90364e",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (533).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (547).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "21b3bfcf90af9a8d765ce01052212b2f06829ef097d4387537e01ba2865a586d",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (547).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (549).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "80d5fa5c8403ab45afedca31879911e463a3aca714d1c1b06257884cef7e0320",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (549).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (550).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "f4e2efb22b50b404792728234cac0d4a0817210c1b372d36b1ecf3afdb023d57",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (550).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (551).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "b3e9442166a3e7cbcd9642a0bdb6882ee6ca3649e9fbfed4a7304d6839ebc05d",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (551).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (558).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "6e8be871e3673c22a47e0afad1b6490522edd9b43f483b9fa38ae74e8ad5fd27",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (558).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (571).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "a54eeaf107633dfa572c23d629bb9343b6d187a21100f5187b3517a2ab0cba6d",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (571).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (575).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "694486cb4a37e42839fff97ea0f3db345ec632195b788c720a229ce88e9b03a8",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (575).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (578).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "validation",
+      "sha256": "aae81146b01b824627287da33927feca5b0a57095120a97104d28a6391bba7f7",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (578).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (580).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "428dcafce8eaeea0d861251700a24f7aaa15c5e1b0e21963b2f221dae64d3cb8",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (580).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (583).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "dbf961dcc41cd25d4ead53985271dd12ed31cf3e5ed9ce36b1f231c819ddf177",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (583).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (587).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "c7a2f6e7fc5b246f76fbc0404e31c4f0f8353397d738f52388ecfb8e4cb628fd",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (587).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (589).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "6feb211e302244e0e680f964633ab08fb7a96d613bd1be32ba15713e687929e8",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (589).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (590).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "39a0b9b15bc3cb24f893135bafae23925d99b8bded030685b2fa37ccb195cf56",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (590).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (593).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "3183603c657fa35cd378145e6bb3b15582ffa57290fcc9bb417d40a1375ee6e8",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (593).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (606).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "48816cedfe4ed3b04bf3ba5e69228f9295b24229b9587df545884f86b38d7ad7",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (606).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (607).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "51c732aceb2a248dbf71b62f0a0936a89523d213ad6ab8c93a178199dc2d92b8",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (607).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (608).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "validation",
+      "sha256": "f3b333ff4566c191fe2787a76f96d7f67c610f3bd2d5c5eab2dbbd890bdb152c",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (608).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (622).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "33e34b33e057900a4929e35d18dab3cc7963b9d6235f7e3cb3b06ad6e60fadf8",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (622).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (626).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "84aec048f4285a0ee0bce103d643235be113a07a563c12266ce56892cfba0d5c",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (626).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (629).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "7d459b2aa32e8b893fff02c8c77c50d1da0938dbc835443d116a4a9833417cd0",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (629).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (630).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "validation",
+      "sha256": "641ac14155a1b5dc2e0dc9796463bac381318ed761def229923266ede9d20047",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (630).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (633).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "45e91900871d79774307b6136c3bbcfb0f6e8820461b4dddd944b3d885ab29d6",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (633).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (642).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "a1edaba7e8d3ebc0b50fc5bf45e889c1afab83d2d34317646d383a89bf4637f1",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (642).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (643).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "6eb5ae71fc3436a06d6ad2ef662a1fa5e289be2b40633519830770e030363ddb",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (643).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (645).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "7197ce82b3ee1ff4333f0be3e944bccad5de0bb80da5e4b73ccd5ba512b88fd9",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (645).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (649).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "714af6cead05b9dfaeb079f22a96b3b72ef39c267d388bcd44168416f82dc8ee",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (649).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (652).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "559593eef99985095e82df90663d27b71af924d01de481798db3ad70ef6c38ce",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (652).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (656).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "6ad04a23c5a00b22c44760b76bade17cde239b0fda9d4978a1ca98b20f900411",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (656).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (657).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "8064c933bd2d802707febb080ab525625a17a2acffc6f671fd0717ffd723d01b",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (657).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (660).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "5450dfe6a1180e98f8b1da2f44ae17ad1a793d9944d2db379107a5ce4634f96d",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (660).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (683).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "db94f3a40e736d99c1c3fce975bf729ff35444cf8edcd540fbff5479f6c8b35e",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (683).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (684).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "b4f1f96a95cc84a60240ef321537f651a6d40fc7c29c8a2f6f0b4e94a4e1592f",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (684).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (686).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "cc8d885a7b6e0c52960ec85e1756ffb5e50e641bb1f85b203980ceb59f28c7aa",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (686).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (698).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "ed1cf4c14f72dd59680f8d1f205d9a3f52059b738333a9eb83fa2abd05673ee7",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (698).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (703).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "c05916d0b2f40de08df06ad85d1e4be2f268e00ae2d73816ea2a05bd3f596b84",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (703).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (706).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "9f5ea7e0d492a3575c689226ba038e56d44e24dedb004d27a668f27dd556af5b",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (706).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (708).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "dbc5ce57861e68bc4b1e8f6348dba4f43b235090c80da73d43b318362775eba0",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (708).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (710).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "40bb206e258e38996018e0ec723435f16b39cdd22988e7e9ff3ab4df60a85e6b",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (710).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (712).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "validation",
+      "sha256": "be0cff13d3fa36f49342a8b104f5d6f414c343284341abdf6c7a559995410cb5",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (712).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (713).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "b08b49b1f30efb2c5432ca59c9b9181e1cd45fa04cd8df191628a188f87b8495",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (713).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (717).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "6eb96f183f385a93ab1c093245bc7c9d3ebc22233ec159f7e90f33f48fb349a2",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (717).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (720).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "b54d8e1094b709097cf5b3f918e6fb22713c22dfa7bd3e4965a162e787dad620",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (720).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (723).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "390ca2a62ad06e81fa28aac372b9abd584c2b80d29a4a04df96190baeb941202",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (723).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (725).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "6fd6b0057a553522744030dafaf67d8f6f7c5934fbfe8fa40f7e869d5a255c31",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (725).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (728).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "test",
+      "sha256": "266c595117ca55a2e38507e33bb92c8bb62e55f8271724844062e61ed9ce549e",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (728).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (733).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "f3b62b3319e4510d0e9592c47c2dbdd57e69b9735b002d6e16f4a76603d5bffc",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (733).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (734).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "7ad782fc12a7f09ccbbccfdb41c6fb2b923c3380aa32551e6d00580a0e38be1c",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (734).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (736).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "09daa91974cd88153c43747f47140638228c24ad94db13f7129e56e23a9af166",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (736).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (741).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "2f2c6d6b74a8ec38aeb0dfe36323ea4b84519277bd05d6b2bab2984eda7f8297",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (741).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (745).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "55bedb9fa9def802b893b05d22b7261fbf0c637fcf70f5c5425883ea050f488e",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (745).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (747).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "0861aad2c4ac61387ec82cb6af55c6128cb1d8d0129c2aa9f3647fec0c42dd16",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (747).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (756).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "cc26303c803ea250e77cc4b501d96b64f39a34d25289a06d4daa4caf3588fcc7",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (756).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (760).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "validation",
+      "sha256": "71a82971b4c7afbeb7c5376b3946a06f27f58678ef105035e3977318394e0146",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (760).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (770).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "7e92ec5599c134f331e59fe859c7d292dfdf84797b90b205869ac97b4cbe6e56",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (770).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (776).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "eec157c462110fb25e34ae2008a6f3b24fe60c69f0910bf1a1b88060c2c4d918",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (776).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (783).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "f8933a21e5136e1dcdb186df260edfb5a67ef28216acf1702fa9a26353a98afc",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (783).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (787).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "4645763d3ae1ec23cf77e0c71d3dd9f3fd0c9b54752cf1485c955532008609ad",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (787).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (798).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "58c1dd86911e730a6d2f16dc0f691d4a032f151203ab010bca53c57f1e8eb2c6",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (798).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (801).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "772307394118de2d63112cd3ac9517a0e17c4c6cf90af9097352100210109435",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (801).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (805).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "dcf825755d5b63b3b39fc165c069fd74228e7a6edbd73fb1f2aa9c610668c157",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (805).png",
+          "FreshApple"
+        ]
+      ]
+    },
+    {
+      "candidate_relative_path": "Apple__Healthy/freshApple (807).png",
+      "candidate_label": "Apple__Healthy",
+      "candidate_mapped_fr_class": "FreshApple",
+      "candidate_hr_split": "train",
+      "sha256": "fbefcb44a9e7017961bcaeda6698fb44b55f6734d4047f34b89571da07fa7143",
+      "fr_matches": [
+        [
+          "test/FreshApple/freshApple (807).png",
+          "FreshApple"
+        ]
+      ]
+    }
+  ],
+  "within_candidate_duplicates": {},
+  "conclusion": "Exact-duplicate overlap check performed via SHA-256 hashes across all Fresh/Rotten partitions including the old test partition. Hash-only check; no images visually inspected, no inference run, no source files modified."
+}

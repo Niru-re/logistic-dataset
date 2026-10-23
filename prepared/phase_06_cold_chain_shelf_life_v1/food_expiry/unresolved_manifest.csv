@@ -1,0 +1,4 @@
+﻿source_path,row_identifier,issue
+C:\Users\nirma\OneDrive\Desktop\logistic\datasets\Food-Expiry-Days-Prediction-Using-Machine-learning-main\Food-Expiry-Days-Prediction-Using-Machine-learning-main\README.md,,README schema/claims differ from CSV; target provenance and generation rule unknown
+C:\Users\nirma\OneDrive\Desktop\logistic\datasets\Food-Expiry-Days-Prediction-Using-Machine-learning-main\Food-Expiry-Days-Prediction-Using-Machine-learning-main\food expiry days prediction.ipynb,saved output,"notebook output reports a different 100,000-row/5-column schema and references another user path; its metrics do not validate current CSV"
+C:\Users\nirma\OneDrive\Desktop\logistic\datasets\Food-Expiry-Days-Prediction-Using-Machine-learning-main\Food-Expiry-Days-Prediction-Using-Machine-learning-main\food_expiry_dataset.csv,,no product/lot/source IDs; no expiry date or production date to validate Expiry_days

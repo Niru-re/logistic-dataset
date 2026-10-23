@@ -1,0 +1,70 @@
+{
+  "rules": [
+    "YOLO detection row must have class_id cx cy width height",
+    "class id must be declared in data.yaml",
+    "normalized coordinates in [0,1]",
+    "width and height > 0",
+    "box extents within image bounds"
+  ],
+  "summary": {
+    "train": {
+      "images": 559,
+      "instances_by_class": {
+        "Door-Close": 458,
+        "Door-Open": 91
+      },
+      "images_by_class": {
+        "Door-Close": 457,
+        "Door-Open": 91
+      }
+    },
+    "valid": {
+      "images": 75,
+      "instances_by_class": {
+        "Door-Close": 65,
+        "Door-Open": 8
+      },
+      "images_by_class": {
+        "Door-Close": 65,
+        "Door-Open": 8
+      }
+    },
+    "test": {
+      "images": 72,
+      "instances_by_class": {
+        "Door-Close": 58,
+        "Door-Open": 12
+      },
+      "images_by_class": {
+        "Door-Close": 58,
+        "Door-Open": 12
+      }
+    }
+  },
+  "invalid_rows_or_files": [
+    {
+      "relative_path": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\Door Open-Close.v1i.yolov8\\data.yaml",
+      "split": "all",
+      "issue": "label semantics: class names are provided but documentation does not define annotation policy or establish cold-chain domain; human verification required"
+    }
+  ],
+  "missing_labels": [],
+  "empty_annotations": [
+    "train/images/CH2_20250120173323-20250120173353_mp4-0422_jpg.rf.c3b886242043d62955b4fe27e111dacf.jpg",
+    "train/images/CH2_20250120173323-20250120173353_mp4-0424_jpg.rf.159f37ac407f5398ee6a05d5b1d71852.jpg",
+    "train/images/CH2_20250120173323-20250120173353_mp4-0427_jpg.rf.d5a8366d70a002f1957344f4c0ad3346.jpg",
+    "train/images/CH2_20250120173323-20250120173353_mp4-0428_jpg.rf.e477940cdf782e6f458b7e7191f65e05.jpg",
+    "train/images/CH2_20250120173323-20250120173353_mp4-0431_jpg.rf.0b04365194133681a1819089ec9ea2e9.jpg",
+    "train/images/CH2_20250120173323-20250120173353_mp4-0432_jpg.rf.e4f153b74bbda526f53e2c4c05296b8b.jpg",
+    "train/images/CH2_20250120173323-20250120173353_mp4-0433_jpg.rf.6740541534035b229309ad4a9dbcb63a.jpg",
+    "train/images/CH2_20250120173323-20250120173353_mp4-0436_jpg.rf.6102ae9f26207ad276784c00a5761227.jpg",
+    "train/images/CH2_20250120173323-20250120173353_mp4-0437_jpg.rf.fd673862df9c5630417255db0ea6f986.jpg",
+    "train/images/CH2_20250120173323-20250120173353_mp4-0448_jpg.rf.41cb585f1bf40dc72a24abe8ee785a50.jpg",
+    "train/images/CH2_20250120173323-20250120173353_mp4-0454_jpg.rf.9d53e164391517cd3c0def8a0dcf0b9e.jpg",
+    "valid/images/CH2_20250120173323-20250120173353_mp4-0438_jpg.rf.82d3c3c94b6302ff52d0532043e69244.jpg",
+    "valid/images/CH2_20250120173323-20250120173353_mp4-0451_jpg.rf.8d24c41431062e2cddbe1b549da7519b.jpg",
+    "test/images/CH2_20250120173323-20250120173353_mp4-0423_jpg.rf.4c084de23b50f0f9f1d0c83819adbe5e.jpg",
+    "test/images/CH2_20250120173323-20250120173353_mp4-0429_jpg.rf.933cbf5a41085d53bc8e1512aae73060.jpg"
+  ],
+  "overall_invalid_annotation_files": 0
+}

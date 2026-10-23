@@ -1,0 +1,114 @@
+{
+  "dataset_name": "Door Open-Close.v1i.yolov8",
+  "source_root": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\Door Open-Close.v1i.yolov8",
+  "source_documentation": {
+    "README.dataset.txt": "Roboflow v1 export; 706 images reported; YOLOv8; no augmentation; CC BY 4.0",
+    "data.yaml": "nc=2; names Door-Close and Door-Open; configured paths train: ../train/images, val: ../valid/images, test: ../test/images"
+  },
+  "class_mapping": {
+    "0": "Door-Close",
+    "1": "Door-Open"
+  },
+  "split_summary": {
+    "train": {
+      "images": 559,
+      "label_files": 559,
+      "matched_images": 559,
+      "orphan_labels": 0,
+      "missing_labels": 0,
+      "empty_annotations": 11,
+      "instances_by_class": {
+        "Door-Close": 458,
+        "Door-Open": 91
+      },
+      "images_by_class": {
+        "Door-Close": 457,
+        "Door-Open": 91
+      }
+    },
+    "valid": {
+      "images": 75,
+      "label_files": 75,
+      "matched_images": 75,
+      "orphan_labels": 0,
+      "missing_labels": 0,
+      "empty_annotations": 2,
+      "instances_by_class": {
+        "Door-Close": 65,
+        "Door-Open": 8
+      },
+      "images_by_class": {
+        "Door-Close": 65,
+        "Door-Open": 8
+      }
+    },
+    "test": {
+      "images": 72,
+      "label_files": 72,
+      "matched_images": 72,
+      "orphan_labels": 0,
+      "missing_labels": 0,
+      "empty_annotations": 2,
+      "instances_by_class": {
+        "Door-Close": 58,
+        "Door-Open": 12
+      },
+      "images_by_class": {
+        "Door-Close": 58,
+        "Door-Open": 12
+      }
+    }
+  },
+  "total_images": 706,
+  "image_decode_failures": 0,
+  "annotation_invalid": 0,
+  "missing_labels": 0,
+  "empty_annotations": 15,
+  "exact_duplicate_groups": 0,
+  "exact_duplicate_files": 0,
+  "near_duplicate_pairs_candidate": 228579,
+  "cross_split_near_duplicate_candidates": 80640,
+  "near_duplicate_candidate_histogram": {
+    "0:test-test": 1082,
+    "0:train-test": 15665,
+    "0:train-train": 54876,
+    "0:train-valid": 15140,
+    "0:valid-test": 2156,
+    "0:valid-valid": 1012,
+    "1:test-test": 204,
+    "1:train-test": 3725,
+    "1:train-train": 16297,
+    "1:train-valid": 3058,
+    "1:valid-test": 313,
+    "1:valid-valid": 108,
+    "2:test-test": 817,
+    "2:train-test": 11959,
+    "2:train-train": 43694,
+    "2:train-valid": 13279,
+    "2:valid-test": 1831,
+    "2:valid-valid": 1003,
+    "3:test-test": 123,
+    "3:train-test": 2958,
+    "3:train-train": 14678,
+    "3:train-valid": 3121,
+    "3:valid-test": 264,
+    "3:valid-valid": 137,
+    "4:test-test": 183,
+    "4:train-test": 3153,
+    "4:train-train": 13474,
+    "4:train-valid": 3593,
+    "4:valid-test": 425,
+    "4:valid-valid": 251
+  },
+  "filename_source_groups_spanning_splits": 3,
+  "readiness_status": "PREPARED_WITH_LIMITATIONS",
+  "pixel_hash": "SHA-256 exact file bytes",
+  "near_duplicate_method": "64-bit average hash after EXIF transpose + RGB conversion; Hamming distance <=4; candidate-only, not confirmation; summarized by distance and split pair because static footage produces many weak pair candidates",
+  "runtime": {
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pillow": "12.1.1"
+  },
+  "created_by": "phase_05_audit.py",
+  "note": "No source images or annotations copied or modified."
+}

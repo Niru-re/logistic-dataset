@@ -1,0 +1,7 @@
+{
+  "class_id_to_name": {
+    "0": "Door-Close",
+    "1": "Door-Open"
+  },
+  "source": "data.yaml"
+}

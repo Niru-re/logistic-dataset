@@ -1,0 +1,9 @@
+﻿image,split,annotation,line,issue
+images/test/20240326_6f2c8e4e-302b-4053-bc4f-87f96a6b3004_1_png.rf.0725f9fc30e7189280fdae6bd3b1af05.jpg,test,labels/test/20240326_6f2c8e4e-302b-4053-bc4f-87f96a6b3004_1_png.rf.0725f9fc30e7189280fdae6bd3b1af05.txt,1,box_corners_out_of_bounds
+images/test/20240326_ad61f4d1-5de3-4bc0-9ca1-5739e6c27b93_1_png.rf.6f4ee4854891e30f44f85e88a5b1e7eb.jpg,test,labels/test/20240326_ad61f4d1-5de3-4bc0-9ca1-5739e6c27b93_1_png.rf.6f4ee4854891e30f44f85e88a5b1e7eb.txt,1,box_corners_out_of_bounds
+images/test/20240326_ad61f4d1-5de3-4bc0-9ca1-5739e6c27b93_1_png.rf.6f4ee4854891e30f44f85e88a5b1e7eb.jpg,test,labels/test/20240326_ad61f4d1-5de3-4bc0-9ca1-5739e6c27b93_1_png.rf.6f4ee4854891e30f44f85e88a5b1e7eb.txt,3,box_corners_out_of_bounds
+images/test/20240328_24aa6e29-f1ef-4333-b3b4-6d008a5b5c8c_2_png.rf.290fbce5ee62f19e2a8af2ccf2d5cf7e.jpg,test,labels/test/20240328_24aa6e29-f1ef-4333-b3b4-6d008a5b5c8c_2_png.rf.290fbce5ee62f19e2a8af2ccf2d5cf7e.txt,27,box_corners_out_of_bounds
+images/test/20240328_24aa6e29-f1ef-4333-b3b4-6d008a5b5c8c_3_png.rf.c512addef7cf79e1f784dcede9624a58.jpg,test,labels/test/20240328_24aa6e29-f1ef-4333-b3b4-6d008a5b5c8c_3_png.rf.c512addef7cf79e1f784dcede9624a58.txt,37,box_corners_out_of_bounds
+images/test/20240329_24aa6e29-f1ef-4333-b3b4-6d008a5b5c8c_1_png.rf.7f45d35e6d5fcb6bf4ecdb39040873e7.jpg,test,labels/test/20240329_24aa6e29-f1ef-4333-b3b4-6d008a5b5c8c_1_png.rf.7f45d35e6d5fcb6bf4ecdb39040873e7.txt,48,box_corners_out_of_bounds
+images/test/20240403_cf3f38d0-7783-4ced-9409-1619c54978f2_1_png.rf.982265ca21b36b4ae53d260c7b096ea1.jpg,test,labels/test/20240403_cf3f38d0-7783-4ced-9409-1619c54978f2_1_png.rf.982265ca21b36b4ae53d260c7b096ea1.txt,3,box_corners_out_of_bounds
+images/test/20240403_cf3f38d0-7783-4ced-9409-1619c54978f2_1_png.rf.982265ca21b36b4ae53d260c7b096ea1.jpg,test,labels/test/20240403_cf3f38d0-7783-4ced-9409-1619c54978f2_1_png.rf.982265ca21b36b4ae53d260c7b096ea1.txt,100,box_corners_out_of_bounds

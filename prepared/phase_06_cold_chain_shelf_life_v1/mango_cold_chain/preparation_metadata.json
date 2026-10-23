@@ -1,0 +1,20 @@
+{
+  "source_root": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\cold_chain\\mango_shipment",
+  "processing_script": "../phase_06_prepare.py",
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "random_seed": null,
+  "transformations": [
+    "Read-only parsing of tab-separated measurement files in raw source folders.",
+    "No value imputation, row deletion, join, derived outcome, or split was performed."
+  ],
+  "source_integrity": {
+    "source_files_hashed_before": 568,
+    "source_files_hashed_after": 568,
+    "unchanged": true,
+    "changed_paths": [],
+    "scope": "all files under mango source directory and Food Expiry directory, plus dynamic CSV",
+    "note": "Output files are outside these source roots."
+  },
+  "readiness": "AUDIT_COMPLETE"
+}

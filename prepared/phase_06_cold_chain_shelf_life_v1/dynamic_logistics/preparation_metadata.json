@@ -1,0 +1,21 @@
+{
+  "source_file": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\dynamic_supply_chain_logistics_dataset.csv",
+  "source_file_bytes": 10026140,
+  "source_sha256": "48cd52b41d3bae50a4c99fb8b610d5836205d9234dc099db45f068f5f2a5226f",
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processing_script": "../phase_06_prepare.py",
+  "random_seed": null,
+  "transforms": [
+    "No cleaning or data transformations; source fields preserved."
+  ],
+  "readiness": "BLOCKED",
+  "source_integrity": {
+    "source_files_hashed_before": 568,
+    "source_files_hashed_after": 568,
+    "unchanged": true,
+    "changed_paths": [],
+    "scope": "all files under mango source directory and Food Expiry directory, plus dynamic CSV",
+    "note": "Output files are outside these source roots."
+  }
+}

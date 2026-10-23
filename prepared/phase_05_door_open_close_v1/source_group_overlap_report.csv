@@ -1,0 +1,4 @@
+﻿source_group,splits,split_count,interpretation
+CH2_20250120173107-20250120173143,test;train;valid,3,filename-derived shared source video/session candidate; verify provenance
+CH2_20250120173323-20250120173353,test;train;valid,3,filename-derived shared source video/session candidate; verify provenance
+CH2_20250120174303-20250120174427,test;train;valid,3,filename-derived shared source video/session candidate; verify provenance

@@ -1,0 +1,53 @@
+{
+  "dataset": "Fruits and Vegetables Detection Dataset",
+  "source_root": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\Fruits-And-Vegetables-Detection-Dataset-main\\Fruits-And-Vegetables-Detection-Dataset-main\\LVIS_Fruits_And_Vegetables",
+  "status": "BLOCKED",
+  "created_utc": "2026-10-14T11:33:19Z",
+  "class_count": 63,
+  "class_id_contiguous": true,
+  "split_directories": {
+    "train": {
+      "image_files": 0,
+      "label_txt_files": 0,
+      "image_zip_entries": 1,
+      "label_zip_entries": 1
+    },
+    "val": {
+      "image_files": 0,
+      "label_txt_files": 0,
+      "image_zip_entries": 1,
+      "label_zip_entries": 1
+    },
+    "test": {
+      "image_files": 180,
+      "label_txt_files": 180,
+      "image_zip_entries": 0,
+      "label_zip_entries": 0
+    }
+  },
+  "yaml_path_checks": {
+    "configured_path": "LVIS_Fruits_And_Vegetables",
+    "train": "images/train",
+    "val": "images/test",
+    "test": "images/test",
+    "configured_path_exists_from_repository_root": true,
+    "train_path_exists": true,
+    "val_path_exists": true,
+    "test_path_exists": true,
+    "val_and_test_same_configured_path": true,
+    "note": "YAML train/val comments conflict with actual available payloads; train/val directories contain LFS pointer files instead of ZIP payloads."
+  },
+  "available_decoded_images": 180,
+  "available_test_images": 180,
+  "annotation_issue_count": 8,
+  "missing_annotations": 0,
+  "invalid_annotation_lines": 8,
+  "exact_duplicate_groups": 0,
+  "duplicate_file_rows": 0,
+  "lfs_pointer_exclusions": 4,
+  "environment": {
+    "python": "3.13.7",
+    "pillow": "12.1.1"
+  },
+  "safety": "Source YAML and image/label files were not modified. Test is available as a small labeled subset; no complete training split is available."
+}

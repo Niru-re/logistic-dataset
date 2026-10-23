@@ -1,0 +1,21 @@
+{
+  "source_file": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\Food-Expiry-Days-Prediction-Using-Machine-learning-main\\Food-Expiry-Days-Prediction-Using-Machine-learning-main\\food_expiry_dataset.csv",
+  "source_file_bytes": 8268164,
+  "source_sha256": "12b7f31ec26b83b5885ffd6c448160a1139fa8d4d21f50373a620413f9730edd",
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processing_script": "../phase_06_prepare.py",
+  "random_seed": null,
+  "transforms": [
+    "No cleaning or data transformations; source fields preserved."
+  ],
+  "readiness": "BLOCKED",
+  "source_integrity": {
+    "source_files_hashed_before": 568,
+    "source_files_hashed_after": 568,
+    "unchanged": true,
+    "changed_paths": [],
+    "scope": "all files under mango source directory and Food Expiry directory, plus dynamic CSV",
+    "note": "Output files are outside these source roots."
+  }
+}

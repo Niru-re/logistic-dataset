@@ -1,0 +1,2793 @@
+{
+  "columns": {
+    "Time": {
+      "column": "Time",
+      "observed_types": [
+        "datetime_like"
+      ],
+      "source_files": [
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_4_7_Temp.txt",
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt",
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt",
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt",
+        "03_src_subset_dataset_W/2_Weight_16C_random.txt",
+        "03_src_subset_dataset_W/2_Weight_21C_random.txt",
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "07_src_subset_dataset_PH/2_PH_21C.txt",
+        "07_src_subset_dataset_PH/3_PH_16C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt",
+        "09_src_subset_dataset_TSS/2_TSS_21C.txt",
+        "09_src_subset_dataset_TSS/3_TSS_16C.txt",
+        "11_src_subset_dataset_SR/Storage_Room_Temp_Hum.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Measurement timestamp; local timezone not specified.",
+      "unit": "datetime"
+    },
+    "T_mangoes": {
+      "column": "T_mangoes",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_4_7_Temp.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Temperature measurement (README describes mango/air/storage temperatures).",
+      "unit": "°C per README"
+    },
+    "T_Air": {
+      "column": "T_Air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_3_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_3_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_4_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_1_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_4_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_4_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_1_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_10_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_3_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_3_3_12_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_1_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_2_1_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_2_7_Temp.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_4_7_Temp.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Temperature measurement (README describes mango/air/storage temperatures).",
+      "unit": "°C per README"
+    },
+    "RH_Air": {
+      "column": "RH_Air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/00_All_Recording_Packing_House_to_Arrival_At_INRAE_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/0_Packing_House_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/1_Cold_Storage_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/2_Transport_BKK_Airport_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/3_Storage_BKK_Platform_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/4_Mango_Box_Arrange_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/5_Tarmac_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/6_Loading_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/7_Inflight_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/8_Storage_CDG_PARIS_Airport_4_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_1_7_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_1_4_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_12_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_2_2_6_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_1_1_Temp_Hum.txt",
+        "01_src_subset_dataset_T_H/9_10_Transport_And_Arrival_At_INRAE_4_4_1_Temp_Hum.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Relative humidity measurement.",
+      "unit": "% RH per README"
+    },
+    "File": {
+      "column": "File",
+      "observed_types": [
+        "identifier"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/combined_statistics.tab",
+        "02_res_subset_dataset_T_H/combined_statistics.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Column": {
+      "column": "Column",
+      "observed_types": [
+        "identifier",
+        "unknown_or_all_missing"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/combined_statistics.tab",
+        "02_res_subset_dataset_T_H/combined_statistics.txt",
+        "12_res_subset_dataset_SR/Average_Storage_Room_Temp_Hum.tab",
+        "12_res_subset_dataset_SR/Average_Storage_Room_Temp_Hum.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Average": {
+      "column": "Average",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/combined_statistics.tab",
+        "02_res_subset_dataset_T_H/combined_statistics.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Processed descriptive statistic; not an independent raw observation.",
+      "unit": "inherits the summarized measurement unit"
+    },
+    "Min": {
+      "column": "Min",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/combined_statistics.tab",
+        "02_res_subset_dataset_T_H/combined_statistics.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Processed descriptive statistic; not an independent raw observation.",
+      "unit": "inherits the summarized measurement unit"
+    },
+    "Max": {
+      "column": "Max",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/combined_statistics.tab",
+        "02_res_subset_dataset_T_H/combined_statistics.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Processed descriptive statistic; not an independent raw observation.",
+      "unit": "inherits the summarized measurement unit"
+    },
+    "SD": {
+      "column": "SD",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/combined_statistics.tab",
+        "02_res_subset_dataset_T_H/combined_statistics.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Processed descriptive statistic; not an independent raw observation.",
+      "unit": "inherits the summarized measurement unit"
+    },
+    "Var": {
+      "column": "Var",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/combined_statistics.tab",
+        "02_res_subset_dataset_T_H/combined_statistics.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Processed descriptive statistic; not an independent raw observation.",
+      "unit": "inherits the summarized measurement unit"
+    },
+    "Source File": {
+      "column": "Source File",
+      "observed_types": [
+        "identifier"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "average T mangoes": {
+      "column": "average T mangoes",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Min T mangoes": {
+      "column": "Min T mangoes",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Max T mangoes": {
+      "column": "Max T mangoes",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "SD T mangoes": {
+      "column": "SD T mangoes",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Variance T mangoes": {
+      "column": "Variance T mangoes",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "average T air": {
+      "column": "average T air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Min T air": {
+      "column": "Min T air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Max T air": {
+      "column": "Max T air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "SD T air": {
+      "column": "SD T air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Variance T air": {
+      "column": "Variance T air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "average Relative Humidity air": {
+      "column": "average Relative Humidity air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Min Realtive Humidity air": {
+      "column": "Min Realtive Humidity air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Max Relative Humidity air": {
+      "column": "Max Relative Humidity air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "SD Relative Humidity air": {
+      "column": "SD Relative Humidity air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Variance Relative Humidity air": {
+      "column": "Variance Relative Humidity air",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "02_res_subset_dataset_T_H/statistics.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "M_1_1_1/1": {
+      "column": "M_1_1_1/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/2": {
+      "column": "M_1_1_1/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/3": {
+      "column": "M_1_1_1/3",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/4": {
+      "column": "M_1_1_1/4",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/5": {
+      "column": "M_1_1_1/5",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/6": {
+      "column": "M_1_1_1/6",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/7": {
+      "column": "M_1_1_1/7",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/8": {
+      "column": "M_1_1_1/8",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/9": {
+      "column": "M_1_1_1/9",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/10": {
+      "column": "M_1_1_1/10",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/11": {
+      "column": "M_1_1_1/11",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/12": {
+      "column": "M_1_1_1/12",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/13": {
+      "column": "M_1_1_1/13",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_1/14": {
+      "column": "M_1_1_1/14",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_1.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/1": {
+      "column": "M_1_1_7/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/2": {
+      "column": "M_1_1_7/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/3": {
+      "column": "M_1_1_7/3",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/4": {
+      "column": "M_1_1_7/4",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/5": {
+      "column": "M_1_1_7/5",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/6": {
+      "column": "M_1_1_7/6",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/7": {
+      "column": "M_1_1_7/7",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/8": {
+      "column": "M_1_1_7/8",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/9": {
+      "column": "M_1_1_7/9",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/10": {
+      "column": "M_1_1_7/10",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/11": {
+      "column": "M_1_1_7/11",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/12": {
+      "column": "M_1_1_7/12",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/13": {
+      "column": "M_1_1_7/13",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_7/14": {
+      "column": "M_1_1_7/14",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_1_1_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/1": {
+      "column": "M_2_2_7/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/2": {
+      "column": "M_2_2_7/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/3": {
+      "column": "M_2_2_7/3",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/4": {
+      "column": "M_2_2_7/4",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/5": {
+      "column": "M_2_2_7/5",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/6": {
+      "column": "M_2_2_7/6",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/7": {
+      "column": "M_2_2_7/7",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/8": {
+      "column": "M_2_2_7/8",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/9": {
+      "column": "M_2_2_7/9",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/10": {
+      "column": "M_2_2_7/10",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/11": {
+      "column": "M_2_2_7/11",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/12": {
+      "column": "M_2_2_7/12",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/13": {
+      "column": "M_2_2_7/13",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_7/14": {
+      "column": "M_2_2_7/14",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/1_Weight_21C_2_2_7.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_3/2": {
+      "column": "M_2_2_3/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/2_Weight_16C_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_9/2": {
+      "column": "M_2_2_9/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/2_Weight_16C_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_3_2_8/2": {
+      "column": "M_3_2_8/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/2_Weight_16C_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_10/2": {
+      "column": "M_2_2_10/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/2_Weight_21C_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_4_1/1": {
+      "column": "M_1_4_1/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/2_Weight_21C_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_3_2_5/1": {
+      "column": "M_3_2_5/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/2_Weight_21C_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_4_1/2": {
+      "column": "M_1_4_1/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "03_src_subset_dataset_W/2_Weight_21C_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "BOX_NAME": {
+      "column": "BOX_NAME",
+      "observed_types": [
+        "identifier"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Sample/fruit label as recorded in color file; mapping policy needs verification.",
+      "unit": "identifier"
+    },
+    "L_D0": {
+      "column": "L_D0",
+      "observed_types": [
+        "numeric",
+        "unknown_or_all_missing"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 174,
+      "meaning": "CIELAB lightness at the named storage day.",
+      "unit": "CIELAB L*; uncertainty ±0.2 per README"
+    },
+    "a_D0": {
+      "column": "a_D0",
+      "observed_types": [
+        "numeric",
+        "unknown_or_all_missing"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 174,
+      "meaning": "CIELAB green-red coordinate at named storage day.",
+      "unit": "CIELAB a*; uncertainty ±0.2 per README"
+    },
+    "b_D0": {
+      "column": "b_D0",
+      "observed_types": [
+        "numeric",
+        "unknown_or_all_missing"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 174,
+      "meaning": "CIELAB blue-yellow coordinate at named storage day.",
+      "unit": "CIELAB b*; uncertainty ±0.2 per README"
+    },
+    "L_D3": {
+      "column": "L_D3",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 42,
+      "meaning": "CIELAB lightness at the named storage day.",
+      "unit": "CIELAB L*; uncertainty ±0.2 per README"
+    },
+    "a_D3": {
+      "column": "a_D3",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 42,
+      "meaning": "CIELAB green-red coordinate at named storage day.",
+      "unit": "CIELAB a*; uncertainty ±0.2 per README"
+    },
+    "b_D3": {
+      "column": "b_D3",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 42,
+      "meaning": "CIELAB blue-yellow coordinate at named storage day.",
+      "unit": "CIELAB b*; uncertainty ±0.2 per README"
+    },
+    "L_D6": {
+      "column": "L_D6",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 42,
+      "meaning": "CIELAB lightness at the named storage day.",
+      "unit": "CIELAB L*; uncertainty ±0.2 per README"
+    },
+    "a_D6": {
+      "column": "a_D6",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 42,
+      "meaning": "CIELAB green-red coordinate at named storage day.",
+      "unit": "CIELAB a*; uncertainty ±0.2 per README"
+    },
+    "b_D6": {
+      "column": "b_D6",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 42,
+      "meaning": "CIELAB blue-yellow coordinate at named storage day.",
+      "unit": "CIELAB b*; uncertainty ±0.2 per README"
+    },
+    "L_D9": {
+      "column": "L_D9",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "CIELAB lightness at the named storage day.",
+      "unit": "CIELAB L*; uncertainty ±0.2 per README"
+    },
+    "a_D9": {
+      "column": "a_D9",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "CIELAB green-red coordinate at named storage day.",
+      "unit": "CIELAB a*; uncertainty ±0.2 per README"
+    },
+    "b_D9": {
+      "column": "b_D9",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "CIELAB blue-yellow coordinate at named storage day.",
+      "unit": "CIELAB b*; uncertainty ±0.2 per README"
+    },
+    "L_D12": {
+      "column": "L_D12",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "CIELAB lightness at the named storage day.",
+      "unit": "CIELAB L*; uncertainty ±0.2 per README"
+    },
+    "a_D12": {
+      "column": "a_D12",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "CIELAB green-red coordinate at named storage day.",
+      "unit": "CIELAB a*; uncertainty ±0.2 per README"
+    },
+    "b_D12": {
+      "column": "b_D12",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "CIELAB blue-yellow coordinate at named storage day.",
+      "unit": "CIELAB b*; uncertainty ±0.2 per README"
+    },
+    "L_D15": {
+      "column": "L_D15",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "CIELAB lightness at the named storage day.",
+      "unit": "CIELAB L*; uncertainty ±0.2 per README"
+    },
+    "a_D15": {
+      "column": "a_D15",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "CIELAB green-red coordinate at named storage day.",
+      "unit": "CIELAB a*; uncertainty ±0.2 per README"
+    },
+    "b_D15": {
+      "column": "b_D15",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "05_src_subset_dataset_C/1_Color_21C_1_1_1.txt",
+        "05_src_subset_dataset_C/1_Color_21C_1_1_7.txt",
+        "05_src_subset_dataset_C/1_Color_21C_2_2_7.txt",
+        "05_src_subset_dataset_C/2_Color_21C_random.txt",
+        "05_src_subset_dataset_C/3_Color_21C_storage_random.txt",
+        "05_src_subset_dataset_C/4_Color_16C_storage_random.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "CIELAB blue-yellow coordinate at named storage day.",
+      "unit": "CIELAB b*; uncertainty ±0.2 per README"
+    },
+    "file_name": {
+      "column": "file_name",
+      "observed_types": [
+        "identifier"
+      ],
+      "source_files": [
+        "06_res_subset_dataset_C/b_color_parameters_means.tab",
+        "06_res_subset_dataset_C/b_color_parameters_means.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "b*_date": {
+      "column": "b*_date",
+      "observed_types": [
+        "unknown_or_all_missing"
+      ],
+      "source_files": [
+        "06_res_subset_dataset_C/b_color_parameters_means.tab",
+        "06_res_subset_dataset_C/b_color_parameters_means.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "b*_mean": {
+      "column": "b*_mean",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "06_res_subset_dataset_C/b_color_parameters_means.tab",
+        "06_res_subset_dataset_C/b_color_parameters_means.txt"
+      ],
+      "missing_count": 6,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "b*": {
+      "column": "b*",
+      "observed_types": [
+        "identifier"
+      ],
+      "source_files": [
+        "06_res_subset_dataset_C/statistic_color_mangoes.html"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "Mean": {
+      "column": "Mean",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "06_res_subset_dataset_C/statistic_color_mangoes.html",
+        "12_res_subset_dataset_SR/Average_Storage_Room_Temp_Hum.tab",
+        "12_res_subset_dataset_SR/Average_Storage_Room_Temp_Hum.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Unknown; use the file/family context and original README.",
+      "unit": "Unknown unless documented in README."
+    },
+    "M_1_1_2/1": {
+      "column": "M_1_1_2/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_2/2": {
+      "column": "M_1_1_2/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_12/1": {
+      "column": "M_1_1_12/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_1_12/2": {
+      "column": "M_1_1_12/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_4_1_1/1": {
+      "column": "M_4_1_1/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_4_1_1/2": {
+      "column": "M_4_1_1/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_4_1_7/1": {
+      "column": "M_4_1_7/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_4_1_7/2": {
+      "column": "M_4_1_7/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_1/1": {
+      "column": "M_2_2_1/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_1/2": {
+      "column": "M_2_2_1/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_3_2_7/1": {
+      "column": "M_3_2_7/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_3_2_7/2": {
+      "column": "M_3_2_7/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_4_2/1": {
+      "column": "M_1_4_2/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_1_4_2/2": {
+      "column": "M_1_4_2/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_4_4_1/1": {
+      "column": "M_4_4_1/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_4_4_1/2": {
+      "column": "M_4_4_1/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/1_PH_21C.txt",
+        "09_src_subset_dataset_TSS/1_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_4/1": {
+      "column": "M_2_2_4/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/2_PH_21C.txt",
+        "09_src_subset_dataset_TSS/2_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_6/2": {
+      "column": "M_2_2_6/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/2_PH_21C.txt",
+        "09_src_subset_dataset_TSS/2_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_3_2_5/3": {
+      "column": "M_3_2_5/3",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/2_PH_21C.txt",
+        "09_src_subset_dataset_TSS/2_TSS_21C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_2_2_3/1": {
+      "column": "M_2_2_3/1",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/3_PH_16C.txt",
+        "09_src_subset_dataset_TSS/3_TSS_16C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_3_2_6/2": {
+      "column": "M_3_2_6/2",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/3_PH_16C.txt",
+        "09_src_subset_dataset_TSS/3_TSS_16C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "M_3_2_4/3": {
+      "column": "M_3_2_4/3",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "07_src_subset_dataset_PH/3_PH_16C.txt",
+        "09_src_subset_dataset_TSS/3_TSS_16C.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Mango/sample measurement field; exact attribute is determined by source file family.",
+      "unit": "g for weight family; pH or °Bx in corresponding family per README"
+    },
+    "T_16C": {
+      "column": "T_16C",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "11_src_subset_dataset_SR/Storage_Room_Temp_Hum.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Temperature measurement (README describes mango/air/storage temperatures).",
+      "unit": "°C per README"
+    },
+    "H_16C": {
+      "column": "H_16C",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "11_src_subset_dataset_SR/Storage_Room_Temp_Hum.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Relative humidity measurement.",
+      "unit": "% RH per README"
+    },
+    "T_21C": {
+      "column": "T_21C",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "11_src_subset_dataset_SR/Storage_Room_Temp_Hum.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Temperature measurement (README describes mango/air/storage temperatures).",
+      "unit": "°C per README"
+    },
+    "H_21C": {
+      "column": "H_21C",
+      "observed_types": [
+        "numeric"
+      ],
+      "source_files": [
+        "11_src_subset_dataset_SR/Storage_Room_Temp_Hum.txt"
+      ],
+      "missing_count": 0,
+      "meaning": "Relative humidity measurement.",
+      "unit": "% RH per README"
+    }
+  },
+  "families": [
+    "01_src_subset_dataset_T_H",
+    "02_res_subset_dataset_T_H",
+    "03_src_subset_dataset_W",
+    "05_src_subset_dataset_C",
+    "06_res_subset_dataset_C",
+    "07_src_subset_dataset_PH",
+    "09_src_subset_dataset_TSS",
+    "11_src_subset_dataset_SR",
+    "12_res_subset_dataset_SR"
+  ],
+  "unknown_semantics": "Variables not supported by README/file context are explicitly marked unknown."
+}

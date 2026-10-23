@@ -1,0 +1,8 @@
+path: ../../Door Open-Close.v1i.yolov8
+train: train/images
+val: valid/images
+test: test/images
+nc: 2
+names:
+  0: Door-Close
+  1: Door-Open

@@ -1,0 +1,129 @@
+{
+  "dataset": "VegNet",
+  "source_root": "C:\\Users\\nirma\\OneDrive\\Desktop\\logistic\\datasets\\vegetable_quality\\vegnet\\VegNet Vegetable Dataset with quality (Unripe, Ripe, Old, Dried and Damaged)\\VegNet (Unripe, Ripe, Old, Dried and Damaged)\\New VegNet",
+  "created_utc": "2026-10-14T11:23:02Z",
+  "status": "PREPARED_WITH_LIMITATIONS",
+  "seed": 2048,
+  "split_method": "deterministic per-label 80/10/10 after exact-hash grouping",
+  "candidate_decodable_images_before_duplicate_handling": 6150,
+  "accepted_images": 6150,
+  "excluded_records": 0,
+  "exact_duplicate_files_removed": 0,
+  "class_count": 20,
+  "class_distribution_by_split": {
+    "1. Bell Pepper/Damaged": {
+      "train": 24,
+      "test": 4,
+      "validation": 3
+    },
+    "1. Bell Pepper/Dried": {
+      "train": 236,
+      "test": 31,
+      "validation": 29
+    },
+    "1. Bell Pepper/Old": {
+      "train": 279,
+      "test": 36,
+      "validation": 34
+    },
+    "1. Bell Pepper/Ripe": {
+      "train": 358,
+      "test": 46,
+      "validation": 44
+    },
+    "1. Bell Pepper/Unripe": {
+      "train": 41,
+      "validation": 5,
+      "test": 6
+    },
+    "2. Chile Pepper/Damaged": {
+      "validation": 12,
+      "train": 96,
+      "test": 13
+    },
+    "2. Chile Pepper/Dried": {
+      "train": 474,
+      "validation": 59,
+      "test": 60
+    },
+    "2. Chile Pepper/Old": {
+      "train": 160,
+      "test": 20,
+      "validation": 20
+    },
+    "2. Chile Pepper/Ripe": {
+      "train": 146,
+      "validation": 18,
+      "test": 19
+    },
+    "2. Chile Pepper/Unripe": {
+      "train": 151,
+      "validation": 18,
+      "test": 20
+    },
+    "3. New Mexico Green Chile/Damaged": {
+      "train": 110,
+      "validation": 13,
+      "test": 15
+    },
+    "3. New Mexico Green Chile/Dried": {
+      "train": 400,
+      "validation": 50,
+      "test": 50
+    },
+    "3. New Mexico Green Chile/Old": {
+      "train": 208,
+      "validation": 26,
+      "test": 27
+    },
+    "3. New Mexico Green Chile/Ripe": {
+      "train": 160,
+      "test": 21,
+      "validation": 20
+    },
+    "3. New Mexico Green Chile/Unripe": {
+      "train": 181,
+      "test": 24,
+      "validation": 22
+    },
+    "4. Tomato/Damaged": {
+      "test": 4,
+      "train": 21,
+      "validation": 2
+    },
+    "4. Tomato/Old": {
+      "train": 987,
+      "validation": 123,
+      "test": 124
+    },
+    "4. Tomato/Ripe": {
+      "test": 96,
+      "train": 764,
+      "validation": 95
+    },
+    "4. Tomato/Unripe": {
+      "train": 116,
+      "validation": 14,
+      "test": 15
+    },
+    "4. Tomato/Dried": {
+      "train": 0,
+      "validation": 0,
+      "test": 0
+    }
+  },
+  "actual_format_counts": {
+    "JPEG": 6150
+  },
+  "extension_format_mismatches": 0,
+  "decode_failure_count": 0,
+  "empty_quality_folders": [
+    "4. Tomato/Dried"
+  ],
+  "environment": {
+    "python": "3.13.7",
+    "pillow": "12.1.1"
+  },
+  "notes": "No source documentation found in inspected VegNet subtree; quality semantics inferred only from the folder hierarchy and dataset title.",
+  "populated_class_count": 19
+}
